@@ -1,1 +1,75 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:700|Roboto:400,700&display=swap');
 
+H1,H2,H3{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+
+body{
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+/* Base Styling */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Header Layout */
+#header-layout{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+#nav-menu-layout{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+/* Footer (sticky) Layout */
+#main-layout{
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+}
+
+#footer-layout{
+  margin-top: auto;
+  text-align: center;
+}
+
+/* Landing Layout */
+#landing-layout{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#landing-layout>div{
+  margin-bottom: 2rem;
+}
+
+#landing-layout>div>a{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+/* Contact Layout */
+#contact-layout{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
