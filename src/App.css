@@ -22,15 +22,46 @@ a{
   text-decoration: none;
 }
 
+/* Mobile */
 /* Header Layout */
 #header-layout{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
 }
+
+#june-jung{
+  margin: auto;
+  padding-right: 48px;
+}
+
 #nav-menu-layout{
+  display:none;
+}
+
+#drawer-layout{
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: calc(100vh - 50px);
+  text-align: center;
+}
+
+#nav-hamburger{
+  width: 100vw;
+}
+
+#nav-social{
+  display: none;
+}
+
+#drawer-close-bttn{
+  text-align: right;
+}
+
+#nav-social-hamburger{
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 /* Footer (sticky) Layout */
@@ -72,4 +103,35 @@ form{
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+}
+
+
+
+
+
+/* Web */
+@media (min-width: 600px) {
+  /* Header Layout */
+  #nav-menu-layout{
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  #nav-hamburger-button{
+    display: none;
+  }
+
+  #nav-social{
+    display: block;
+  }
+}
+
+@media (min-width: 850px) {
+/* Landing Layout */
+  #landing-layout{
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    max-width: 1590px;
+    margin: 0 auto;
+  }
 }
