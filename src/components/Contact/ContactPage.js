@@ -39,16 +39,16 @@ const ContactPage = () => {
 
   return (
     <div id="contact-layout">
-      <p>Get in touch!</p>
+      <h1>Get in touch.</h1>
+      <p>Let's work together.</p>
 
       <form noValidate autoComplete="off" onSubmit={handleOnSubmit}>
-        <TextField id="name" label="Name" variant="outlined"/>
-        <TextField id="email" label="Email" variant="outlined"/>
+        <TextField required id="name" label="Name" name="Name" />
+        <TextField required id="email" label="Email" name="Email" />
         <TextField
           id="message" 
           label="Message" 
           name="message"
-          variant="outlined"
           multiline
           rows={4}
         />

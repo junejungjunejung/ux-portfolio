@@ -22,7 +22,12 @@ a{
   text-decoration: none;
 }
 
-/* Mobile */
+img{
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile First*/
 /* Header Layout */
 #header-layout{
   display: flex;
@@ -77,9 +82,20 @@ a{
 }
 
 /* Landing Layout */
+h1{
+  margin: 0 auto;
+  padding: 0 1rem 0 1rem;
+  max-width: 400px;
+  text-align: left;
+}
+
 #landing-layout{
   display: flex;
   flex-flow: column nowrap;
+}
+
+#landing-layout img{
+  max-width: 400px;
 }
 
 #landing-layout>div{
@@ -90,6 +106,23 @@ a{
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+}
+
+/* About Layout */
+#about-intro>p{
+  margin: 0 auto;
+  padding: 0 1rem 0 1rem;
+  max-width: 400px;
+}
+
+#tools-layout{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#tools-layout>div{
+  padding: 0 1rem 0 1rem;
 }
 
 /* Contact Layout */
@@ -105,11 +138,13 @@ form{
   align-items: center;
 }
 
-
-
-
-
 /* Web */
+@media (min-width: 420px) {
+  #tools-layout{
+    justify-content: space-around;
+  }
+}
+
 @media (min-width: 600px) {
   /* Header Layout */
   #nav-menu-layout{
@@ -124,6 +159,40 @@ form{
   #nav-social{
     display: block;
   }
+
+  /* About Layout */
+  #design-layout{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+
+  #design-layout>div:first-of-type{
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 700px) {
+  /* Landing Layout */
+  h1{
+    max-width: 600px;
+    text-align: center;
+  }
+
+  /* About Layout */
+  #about-intro>p{
+    max-width: 600px;
+  }
+
+  #dev-layout{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  
+  #dev-layout>div:first-of-type{
+    padding-right: 4rem;
+  }
 }
 
 @media (min-width: 850px) {
@@ -135,3 +204,11 @@ form{
     margin: 0 auto;
   }
 }
+
+@media (min-width: 1100px) {
+/* About Layout */
+    #tools-layout{
+      max-width: 900px;
+      margin: 0 auto;
+    }
+  }
