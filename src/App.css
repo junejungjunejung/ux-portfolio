@@ -27,6 +27,10 @@ img{
   height: auto;
 }
 
+.projects-container img{
+  border: 1px solid #A5A5A5;
+}
+
 /* Mobile First*/
 /* Header Layout */
 #header-layout{
@@ -136,6 +140,12 @@ form{
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  min-width: 80vw;
+}
+
+#contact-button{
+  min-width: 80vw;
+  margin-top: 2rem;
 }
 
 /* Web */
@@ -192,6 +202,17 @@ form{
   
   #dev-layout>div:first-of-type{
     padding-right: 4rem;
+  }
+
+  /* Contact Layout */
+  form{
+    min-width: 500px;
+    max-width: 500px;
+  }
+  
+  #contact-button{
+    min-width: 500px;
+    max-width: 500px;
   }
 }
 

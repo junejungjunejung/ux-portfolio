@@ -43,16 +43,17 @@ const ContactPage = () => {
       <p>Let's work together.</p>
 
       <form noValidate autoComplete="off" onSubmit={handleOnSubmit}>
-        <TextField required id="name" label="Name" name="Name" />
-        <TextField required id="email" label="Email" name="Email" />
+        <TextField required id="name" label="Name" name="Name" fullWidth/>
+        <TextField required id="email" label="Email" name="Email" fullWidth/>
         <TextField
           id="message" 
           label="Message" 
           name="message"
           multiline
-          rows={4}
+          rows={6}
+          fullWidth
         />
-        <Button variant="outlined" type="submit" disabled={serverState.submitting}>Send message</Button>
+        <Button id="contact-button" variant="outlined" size="large" type="submit" disabled={serverState.submitting}>Send message</Button>
         {serverState.status && (
           <p className={!serverState.status.ok ? "errorMsg" : ""}>
             {serverState.status.msg}

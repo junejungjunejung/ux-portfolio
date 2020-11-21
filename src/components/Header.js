@@ -58,13 +58,13 @@ const Header = () => {
         </div>
 
         <div id="nav-social">
-          <a href="https://www.linkedin.com/in/junejungjunejung/" className="Social-links" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/junejungjunejung/" className="social-links" target="_blank" rel="noopener noreferrer">
             <IconButton color="inherit">
               <LinkedIn />
             </IconButton>
           </a>
 
-          <a href="https://github.com/junejungjunejung" className="Social-links" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/junejungjunejung" className="social-links" target="_blank" rel="noopener noreferrer">
             <IconButton color="inherit">
               <GitHub />
             </IconButton>
@@ -101,13 +101,13 @@ const Header = () => {
           </ul>
 
           <div id="nav-social-hamburger">
-            <a href="https://www.linkedin.com/in/junejungjunejung/" className="Social-links" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/junejungjunejung/" className="social-links" target="_blank" rel="noopener noreferrer">
               <IconButton color="inherit">
                 <LinkedIn />
               </IconButton>
             </a>
 
-            <a href="https://github.com/junejungjunejung" className="Social-links" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/junejungjunejung" className="social-links" target="_blank" rel="noopener noreferrer">
               <IconButton color="inherit">
                 <GitHub />
               </IconButton>

@@ -4,7 +4,7 @@ const AboutPage = () => {
   return (
     <div id="about-layout">
       <div id="about-intro">
-        <h1>I'm a passionate Web and Mobile UX Designer & Front-End developer with meticulous attention to detail.</h1>
+        <h1>I'm a passionate Web and Mobile UX/UI Designer & Front-End developer with meticulous attention to detail.</h1>
         <p>I possess excellent time management skill comes from a background of fast-paced creative production work environment.</p>
       </div>
 
