@@ -13,7 +13,7 @@ const LandingPage = () => {
           <Link to="/wtc">
             <img src={thumbnail} alt="wtc thumbnail"/>
             <div>Women Transforming Cities</div>
-            <div>Website UX Redesign Project</div>
+            <div>Website UX Redesign Project <span>&#8544;</span></div>
           </Link>
         </div>
 
@@ -21,7 +21,7 @@ const LandingPage = () => {
           <Link to="/massybooks">
             <img src={thumbnail} alt="massy books thumbnail"/>
             <div>Massy Books</div>
-            <div>Website UX Redesign Project</div>
+            <div>Website UX Redesign Project <span>&#8545;</span></div>
           </Link>
         </div>
 
@@ -29,7 +29,7 @@ const LandingPage = () => {
           <Link to="/vpl">
             <img src={thumbnail} alt="vpl thumbnail"/>
             <div>Vancouver Public Library</div>
-            <div>Mobile App UX Redesign Project</div>
+            <div>Mobile App UX Redesign Project <span>&#8544;</span></div>
           </Link>
         </div>
 
@@ -37,7 +37,7 @@ const LandingPage = () => {
           <Link to="/streetfood">
             <img src={thumbnail} alt="street food app thumbnail"/>
             <div>Street Food App</div>
-            <div>Mobile App UX Redesign Project</div>
+            <div>Mobile App UX Redesign Project <span>&#8545;</span></div>
           </Link>
         </div>
 

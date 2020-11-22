@@ -41,7 +41,7 @@ img{
 
 #june-jung{
   margin: auto;
-  padding-right: 48px;
+  padding-right: 36px;
 }
 
 #nav-menu-layout{
@@ -112,6 +112,11 @@ h1{
   align-items: center;
 }
 
+/* Projects Layout */
+.projects-container h1{
+  text-align: center;
+}
+
 /* About Layout */
 #about-intro>p{
   margin: 0 auto;
@@ -168,6 +173,10 @@ form{
 
   #nav-social{
     display: block;
+  }
+
+  #june-jung{
+    padding-right: 0px;
   }
 
   /* About Layout */
