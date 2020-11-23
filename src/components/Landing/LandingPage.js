@@ -1,6 +1,10 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import thumbnail from '../../image/rectangle.jpg';
+import wtcThumbnail from '../../image/wtc-thumbnail.jpg';
+import massyThumbnail from '../../image/massy-thumbnail.jpg';
+import reactThumbnail from '../../image/react-thumbnail.jpg';
+import goverThumbnail from '../../image/gover-thumbnail.jpg';
 
 const LandingPage = () => {
   return (
@@ -11,7 +15,7 @@ const LandingPage = () => {
       <div id="landing-layout">
         <div>
           <Link to="/wtc">
-            <img src={thumbnail} alt="wtc thumbnail"/>
+            <img src={wtcThumbnail} alt="wtc thumbnail"/>
             <div>Women Transforming Cities</div>
             <div>Website UX Redesign Project <span>&#8544;</span></div>
           </Link>
@@ -19,7 +23,7 @@ const LandingPage = () => {
 
         <div>
           <Link to="/massybooks">
-            <img src={thumbnail} alt="massy books thumbnail"/>
+            <img src={massyThumbnail} alt="massy books thumbnail"/>
             <div>Massy Books</div>
             <div>Website UX Redesign Project <span>&#8545;</span></div>
           </Link>
@@ -43,7 +47,7 @@ const LandingPage = () => {
 
         <div>
           <Link to="/devreact">
-            <img src={thumbnail} alt="react development thumbnail"/>
+            <img src={reactThumbnail} alt="react development thumbnail"/>
             <div>Interactive React Development Portfolio</div>
             <div>Web Development Showcase Project</div>
           </Link>
@@ -51,7 +55,7 @@ const LandingPage = () => {
 
         <div>
           <Link to="/gover">
-            <img src={thumbnail} alt="gover thumbnail"/>
+            <img src={goverThumbnail} alt="gover thumbnail"/>
             <div>Gover</div>
             <div>Multiplatform Service Design & Development Project</div>
           </Link>
