@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import thumbnail from '../../image/rectangle.jpg';
 import wtcThumbnail from '../../image/wtc-thumbnail.jpg';
 import massyThumbnail from '../../image/massy-thumbnail.jpg';
+import vplThumbnail from '../../image/vpl-thumbnail.jpg';
 import reactThumbnail from '../../image/react-thumbnail.jpg';
 import goverThumbnail from '../../image/gover-thumbnail.jpg';
 
@@ -31,8 +32,8 @@ const LandingPage = () => {
 
         <div>
           <Link to="/vpl">
-            <img src={thumbnail} alt="vpl thumbnail"/>
-            <div>Vancouver Public Library</div>
+            <img src={vplThumbnail} alt="vpl thumbnail"/>
+            <div>Vancouver Public Library Mobile</div>
             <div>Mobile App UX Redesign Project <span>&#8544;</span></div>
           </Link>
         </div>
