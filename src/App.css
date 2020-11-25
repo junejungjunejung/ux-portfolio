@@ -118,6 +118,14 @@ h1{
   text-align: center;
 }
 
+.code-img{
+  max-width: 700px;
+}
+
+.react-img{
+  max-width: 1440px;
+}
+
 /* About Layout */
 #about-intro>p{
   margin: 0 auto;

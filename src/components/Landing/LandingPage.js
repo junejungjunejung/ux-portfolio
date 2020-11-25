@@ -1,11 +1,13 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import thumbnail from '../../image/rectangle.jpg';
+
 import wtcThumbnail from '../../image/wtc-thumbnail.jpg';
 import massyThumbnail from '../../image/massy-thumbnail.jpg';
 import vplThumbnail from '../../image/vpl-thumbnail.jpg';
 import reactThumbnail from '../../image/react-thumbnail.jpg';
 import goverThumbnail from '../../image/gover-thumbnail.jpg';
+
+import thumbnail from '../../image/rectangle.jpg';
 
 const LandingPage = () => {
   return (
