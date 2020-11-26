@@ -19,6 +19,10 @@ const MassyBooks = () => {
     <div className="projects-container" id="massybooks-layout">
       <div>
         <h1>Website UX Redesign Project <span>&#8545;</span></h1>
+
+        <h2>Massy Books</h2>
+        <p>Massy Books is 100% Indigenous owned and operated and a member of the Stó:lō Business Association. We acknowledge we operate on the traditional, ancestral, unceded, and occupied territory of the Musqueam, Squamish, and Tsleil-Waututh Nations.</p>
+
         <p>project summary</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
@@ -26,33 +30,34 @@ const MassyBooks = () => {
       </div>
 
       <div>
-        <h2>Massy Books</h2>
-        <p>Massy Books is 100% Indigenous owned and operated and a member of the Stó:lō Business Association. We acknowledge we operate on the traditional, ancestral, unceded, and occupied territory of the Musqueam, Squamish, and Tsleil-Waututh Nations.</p>
+        <h1>Problem Analysis</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+
+        <h2>Current Website Landing Screen</h2>
+        <img src={previousLanding} alt="previous massy books site screen"/>
+        <h2>Current User Flow</h2>
+        <img src={previousUserFlow} alt="previous massy books user flow"/>
+
         <a href="https://www.massybooks.com/" className="website-links" target="_blank" rel="noopener noreferrer">
           <ArrowForwardIcon /> Link to Massy Books
         </a>
-        <img src={previousLanding} alt="previous massy books site screen"/>
-      </div>
-
-      <div>
-        <h2>Previous User Flow</h2>
-        <p>problem summary</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <img src={previousUserFlow} alt="previous massy books user flow"/>
-      </div>
-
-      <div>
-        <h2>New User Flow</h2>
-        <p>solution summary</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <img src={newUserFlow} alt="new massy books user flow"/>
       </div>
 
       <div className="projects-secondary-container">
+        <div>
+          <h1>Solution</h1>
+
+          <p>solution summary</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+                    
+          <h2>New User Flow</h2>
+          <img src={newUserFlow} alt="new massy books user flow"/>
+        </div>
+
         <div className="web-wireframe">
           <div>
             <h2>Landing page desktop wireframe</h2>
