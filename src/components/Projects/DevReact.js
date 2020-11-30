@@ -25,6 +25,10 @@ const DevReact = () => {
         <a href="http://junejungjunejung.github.io/" className="website-links" target="_blank" rel="noopener noreferrer">
           <ArrowForwardIcon /> Visit My React Website
         </a>
+
+        <a href="https://github.com/junejungjunejung/react-dev-portfolio" className="website-links" target="_blank" rel="noopener noreferrer">
+          <ArrowForwardIcon /> Visit Github to see the source code.
+        </a>  
       </div>
 
       <div>
