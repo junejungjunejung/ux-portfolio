@@ -86,8 +86,8 @@ const App = (props) => {
         </Switch>
       
         <ScrollTop {...props}>
-          <Fab color="secondary" size="small" aria-label="scroll back to top">
-            <KeyboardArrowUpIcon />
+          <Fab aria-label="scroll back to top">
+            <KeyboardArrowUpIcon fontSize="large" />
           </Fab>
         </ScrollTop>
 

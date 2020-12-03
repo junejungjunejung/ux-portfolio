@@ -1,6 +1,22 @@
 /* Typography */
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:700|Roboto:400,700&display=swap');
 
+#june-jung{
+  font-size: 1.75rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+
+#nav-menu-layout{
+  font-size: 1.25rem;
+}
+
+#nav-hamburger{
+  font-size: 2rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+
 h1,h2,h3,h4{
   font-family: 'Noto Sans', sans-serif;
   font-weight: 700;
@@ -20,6 +36,7 @@ ul {
 
 a{
   text-decoration: none;
+  color: #000000;
 }
 
 img{
@@ -39,9 +56,28 @@ img{
   justify-content: space-between;
 }
 
+#jj-logo{
+  height: 2.5rem;
+  width:  2.5rem;
+}
+
 #june-jung{
   margin: auto;
   padding-right: 36px;
+}
+
+.MuiIconButton-label{
+  color: #000000;
+}
+
+#header-layout .MuiSvgIcon-root{
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+#nav-social-hamburger .MuiSvgIcon-root{
+  width: 2.5rem !important;
+  height: 2.5rem !important;
 }
 
 #nav-menu-layout{

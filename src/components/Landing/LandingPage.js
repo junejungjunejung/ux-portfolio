@@ -6,8 +6,7 @@ import massyThumbnail from '../../image/massy-thumbnail.jpg';
 import vplThumbnail from '../../image/vpl-thumbnail.jpg';
 import reactThumbnail from '../../image/react-thumbnail.jpg';
 import goverThumbnail from '../../image/gover-thumbnail.jpg';
-
-import thumbnail from '../../image/rectangle.jpg';
+import sfThumbnail from '../../image/sf-thumbnail.jpg';
 
 const LandingPage = () => {
   return (
@@ -42,7 +41,7 @@ const LandingPage = () => {
 
         <div>
           <Link to="/streetfood">
-            <img src={thumbnail} alt="street food app thumbnail"/>
+            <img src={sfThumbnail} alt="street food app thumbnail"/>
             <div>Street Food App</div>
             <div>Mobile App UX Redesign Project <span>&#8545;</span></div>
           </Link>

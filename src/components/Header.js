@@ -5,8 +5,9 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Drawer from '@material-ui/core/Drawer';
 import IconButton from '@material-ui/core/IconButton';
 import Divider from '@material-ui/core/Divider';
-import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+
+import logo from '../image/jj-logo.jpg';
 
 import { GitHub, LinkedIn } from '@material-ui/icons';
 
@@ -38,7 +39,7 @@ const Header = () => {
           onClick={toggleDrawer(open, true)}
           edge="start"
         >
-          <MenuIcon />
+          <img src={logo} id="jj-logo" alt="june jung logo"/>
         </IconButton>
 
         <ul id="nav-menu-layout">
@@ -78,7 +79,7 @@ const Header = () => {
       >
         <div id="drawer-close-bttn">
           <IconButton onClick={toggleDrawer(open, false)}>
-            <ChevronLeftIcon />
+            <ChevronLeftIcon fontSize="large" />
           </IconButton>
         </div>
         <Divider />
