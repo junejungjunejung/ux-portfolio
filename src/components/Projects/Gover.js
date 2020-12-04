@@ -62,7 +62,7 @@ import architecture from '../../image/gover-architecture.jpg';
 
 const Gover = () => {
   return (
-    <div id="gover-layout">
+    <div className="projects-container" id="gover-layout">
       <div>
         <h1>Gover</h1>
         <h2>Multiplatform Service Design & Development Project</h2>
@@ -72,90 +72,93 @@ const Gover = () => {
 
       <div>
         <h2>My role</h2>
+        <div id="role-container">
+          <div>
+            <h3>UX design</h3>
+            <p>"The inspection app that will make your work easier, faster, and better."</p>
+            <p>"The inspection app that will make your work easier, faster, and better."</p>
+          </div>
 
-        <div>
-          <h3>UX design</h3>
-          <p>"The inspection app that will make your work easier, faster, and better."</p>
-          <p>"The inspection app that will make your work easier, faster, and better."</p>
-        </div>
+          <div>
+            <h3>UI design</h3>
+            <p>"The inspection app that will make your work easier, faster, and better."</p>
+            <p>"The inspection app that will make your work easier, faster, and better."</p>
+          </div>
 
-        <div>
-          <h3>UI design</h3>
-          <p>"The inspection app that will make your work easier, faster, and better."</p>
-          <p>"The inspection app that will make your work easier, faster, and better."</p>
-        </div>
-
-        <div>
-          <h3>Frontend development</h3>
-          <p>"The inspection app that will make your work easier, faster, and better."</p>
-          <p>"The inspection app that will make your work easier, faster, and better."</p>
+          <div>
+            <h3>Frontend development</h3>
+            <p>"The inspection app that will make your work easier, faster, and better."</p>
+            <p>"The inspection app that will make your work easier, faster, and better."</p>
+          </div>
         </div>
       </div>
 
       <div>
         <div>
-          <h2>UX design</h2>
+          <h2>Analysis</h2>
+          <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
 
           <div>
             <h3>Personas</h3>
             <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
             
-            <div>
-              <h3>Mike Yeo</h3>
-              <p>Real Estate Agent</p>
-              <p>"A good real estate agent always keep up with local and regional market activities. I need an efficient way to organize and update my real estate documents, agreements and reports."</p>
+            <div id="persona-container">
               <div>
-                <h3>Goals</h3>
-                <p>-Easy way to access all the inspections he did.</p>
-                <p>-Creating a report quickly for sharing.</p>             
+                <h3>Mike Yeo</h3>
+                <p>Real Estate Agent</p>
+                <p>"A good real estate agent always keep up with local and regional market activities. I need an efficient way to organize and update my real estate documents, agreements and reports."</p>
+                <div>
+                  <h3>Goals</h3>
+                  <p>-Easy way to access all the inspections he did.</p>
+                  <p>-Creating a report quickly for sharing.</p>             
+                </div>
+                <div>
+                  <h3>Frustration</h3>
+                  <p>-Inspections are usually done by a third party.</p>
+                  <p>-Lack of a document sorting system which provides easy access.</p>  
+                  <p>-Reports are documented manually.</p>              
+                </div>
               </div>
+              
               <div>
-                <h3>Frustration</h3>
-                <p>-Inspections are usually done by a third party.</p>
-                <p>-Lack of a document sorting system which provides easy access.</p>  
-                <p>-Reports are documented manually.</p>              
+                <h3>Leticia Santos</h3>
+                <p>Home Owner</p>
+                <p>"As a landlord, I want to provide the best possible home experience to my renters."</p>
+                <div>
+                  <h3>Goals</h3>
+                  <p>-Comparing inspection of properties before and after each renter's use.</p>
+                  <p>-Review the inspection thoroughly and easily.</p>             
+                </div>
+                <div>
+                  <h3>Frustration</h3>
+                  <p>-Heavy property management and maintenance.</p>
+                  <p>-Lengthy eviction process.</p>  
+                  <p>-Difficulty in keeping track of several property's status.</p>              
+                </div>
               </div>
+              
+              <div>
+                <h3>Matthew Cox</h3>
+                <p>Equipment renting business owner</p>
+                <p>"Filming equipment can be expensive. So I want to use my platform to support filmmaking lovers."</p>
+                <div>
+                  <h3>Goals</h3>
+                  <p>-Keep track on rented item's general condition.</p>
+                  <p>-Having a logical system to file rented equipments.</p>             
+                </div>
+                <div>
+                  <h3>Frustration</h3>
+                  <p>-Time consuming inspection process.</p>
+                  <p>-Keeping records on rented items before and after condition.</p>  
+                  <p>-Following item's renting history.</p>              
+                </div>
+              </div>                                
             </div>
-            
-            <div>
-              <h3>Leticia Santos</h3>
-              <p>Home Owner</p>
-              <p>"As a landlord, I want to provide the best possible home experience to my renters."</p>
-              <div>
-                <h3>Goals</h3>
-                <p>-Comparing inspection of properties before and after each renter's use.</p>
-                <p>-Review the inspection thoroughly and easily.</p>             
-              </div>
-              <div>
-                <h3>Frustration</h3>
-                <p>-Heavy property management and maintenance.</p>
-                <p>-Lengthy eviction process.</p>  
-                <p>-Difficulty in keeping track of several property's status.</p>              
-              </div>
-            </div>
-            
-            <div>
-              <h3>Matthew Cox</h3>
-              <p>Equipment renting business owner</p>
-              <p>"Filming equipment can be expensive. So I want to use my platform to support filmmaking lovers."</p>
-              <div>
-                <h3>Goals</h3>
-                <p>-Keep track on rented item's general condition.</p>
-                <p>-Having a logical system to file rented equipments.</p>             
-              </div>
-              <div>
-                <h3>Frustration</h3>
-                <p>-Time consuming inspection process.</p>
-                <p>-Keeping records on rented items before and after condition.</p>  
-                <p>-Following item's renting history.</p>              
-              </div>
-            </div>                      
           </div>
 
-          <div>
+          <div id="problem-solution">
             <div>
               <h3>The problem</h3>
-              <p>problem</p>
               <div>
                 <p>1.Time consuming paperwork</p>
                 <p>Paper inspection and report generation takes more than 2-3hours to complete.</p>              
@@ -238,18 +241,18 @@ const Gover = () => {
                   <div>
                     <h4>Landing page mobile wireframe</h4>
                     <img src={landingMobile} alt="mobile wireframe"/>
-                  </div>
-        
+                  </div> 
+
                   <div>
                     <h4>Dashboard mobile wireframe</h4>
                     <img src={dashboardMobile} alt="mobile wireframe"/>
                   </div>
-        
+
                   <div>
                     <h4>Reports mobile wireframe</h4>
                     <img src={reportsMobile} alt="mobile wireframe"/>
                   </div>
-        
+                  
                   <div>
                     <h4>Report Item mobile wireframe</h4>
                     <img src={reportItemtMobile} alt="mobile wireframe"/>

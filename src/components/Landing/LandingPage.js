@@ -10,7 +10,7 @@ import sfThumbnail from '../../image/sf-thumbnail.jpg';
 
 const LandingPage = () => {
   return (
-    <div>
+    <div id="landing">
       <div id="landing-intro">
         <h1>Hi, I'm June. A Web and Mobile UX/UI Designer & Front-End developer based in Vancouver, Canada.</h1>
       </div>

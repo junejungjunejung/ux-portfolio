@@ -36,13 +36,15 @@ const WTC = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>      
         
         <h2>Current Website Landing Screen</h2>
-        <img src={previousLanding} alt="previous wtc site screen"/>
+        <img className="big-img" src={previousLanding} alt="previous wtc site screen"/>
         <h2>Current User Flow</h2>
-        <img src={previousUserFlow} alt="previous wtc user flow"/>
+        <img className="big-img" src={previousUserFlow} alt="previous wtc user flow"/>
 
-        <a href="https://www.womentransformingcities.org/" className="website-links" target="_blank" rel="noopener noreferrer">
-          <ArrowForwardIcon /> Link to WTC
-        </a>
+        <div>
+          <a href="https://www.womentransformingcities.org/" className="website-links" target="_blank" rel="noopener noreferrer">
+            <ArrowForwardIcon /> Link to WTC
+          </a>
+        </div>
       </div>
 
       <div className="projects-secondary-container">
@@ -55,7 +57,7 @@ const WTC = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
 
         <h2>New User Flow</h2>
-        <img src={newUserFlow} alt="new wtc user flow"/>
+        <img className="big-img" src={newUserFlow} alt="new wtc user flow"/>
       </div>     
 
         <div className="web-wireframe">

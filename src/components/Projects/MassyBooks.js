@@ -36,13 +36,15 @@ const MassyBooks = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
 
         <h2>Current Website Landing Screen</h2>
-        <img src={previousLanding} alt="previous massy books site screen"/>
+        <img className="big-img" src={previousLanding} alt="previous massy books site screen"/>
         <h2>Current User Flow</h2>
-        <img src={previousUserFlow} alt="previous massy books user flow"/>
+        <img className="big-img" src={previousUserFlow} alt="previous massy books user flow"/>
 
-        <a href="https://www.massybooks.com/" className="website-links" target="_blank" rel="noopener noreferrer">
-          <ArrowForwardIcon /> Link to Massy Books
-        </a>
+        <div>
+          <a href="https://www.massybooks.com/" className="website-links" target="_blank" rel="noopener noreferrer">
+            <ArrowForwardIcon /> Link to Massy Books
+          </a>
+        </div>
       </div>
 
       <div className="projects-secondary-container">
@@ -55,7 +57,7 @@ const MassyBooks = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
                     
           <h2>New User Flow</h2>
-          <img src={newUserFlow} alt="new massy books user flow"/>
+          <img className="big-img" src={newUserFlow} alt="new massy books user flow"/>
         </div>
 
         <div className="web-wireframe">

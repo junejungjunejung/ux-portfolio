@@ -59,12 +59,14 @@ const StreetFood = () => {
 
         <div>
           <h2>Current User Flow</h2>
-          <img src={previousUserFlow} alt="thumbnail"/>
+          <img className="big-img" src={previousUserFlow} alt="thumbnail"/>
         </div>
 
-        <a href="https://apps.apple.com/app/street-food-vancouver/id412748042?l=en" className="website-links" target="_blank" rel="noopener noreferrer">
-          <ArrowForwardIcon /> Link to App Store
-        </a>
+        <div>
+          <a href="https://apps.apple.com/app/street-food-vancouver/id412748042?l=en" className="website-links" target="_blank" rel="noopener noreferrer">
+            <ArrowForwardIcon /> Link to App Store
+          </a>       
+        </div>
       </div>
 
       <div className="projects-secondary-container">
@@ -77,7 +79,7 @@ const StreetFood = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
           
           <h2>New User Flow</h2>
-          <img src={newUserFlow} alt="thumbnail"/>
+          <img className="big-img" src={newUserFlow} alt="thumbnail"/>
         </div>
 
         <div className="app-wireframe">

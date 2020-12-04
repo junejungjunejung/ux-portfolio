@@ -13,7 +13,7 @@ import crudCode from '../../image/crud-code.jpg';
 
 const DevReact = () => {
   return (
-    <div id="devreact-layout">
+    <div className="projects-container" id="devreact-layout">
       <div>
         <h1>Interactive React Development Portfolio</h1>
         <h2>Web Development Showcase Project</h2>
@@ -22,13 +22,17 @@ const DevReact = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
 
-        <a href="http://junejungjunejung.github.io/" className="website-links" target="_blank" rel="noopener noreferrer">
-          <ArrowForwardIcon /> Visit My React Website
-        </a>
+        <div>
+          <a href="http://junejungjunejung.github.io/" className="website-links" target="_blank" rel="noopener noreferrer">
+            <ArrowForwardIcon /> Visit My React Website
+          </a>
+        </div>
 
-        <a href="https://github.com/junejungjunejung/react-dev-portfolio" className="website-links" target="_blank" rel="noopener noreferrer">
-          <ArrowForwardIcon /> Visit Github to see the source code.
-        </a>  
+        <div>
+          <a href="https://github.com/junejungjunejung/react-dev-portfolio" className="website-links" target="_blank" rel="noopener noreferrer">
+            <ArrowForwardIcon /> Visit Github to see the source code.
+          </a> 
+        </div> 
       </div>
 
       <div>
