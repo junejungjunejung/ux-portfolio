@@ -154,13 +154,35 @@ img{
   text-align: center;
 }
 
+.projects-container{
+  max-width: 1000px;
+  margin: .5rem;
+}
+
 .big-img{
   max-width: 1000px;
 }
 
+.textbox{
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.mobile-wireframe{
+  margin: 0 auto;
+}
+
+/* (VPL & Streetfood) */
+.current-app-screen, .app-wireframe{
+  max-width: 1000px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
 /* (React Dev Website) */
 #devreact-layout .code-img{
-  max-width: 700px;
+  max-width: 750px;
 }
 
 #devreact-layout .react-img{
@@ -180,7 +202,6 @@ img{
 #gover-layout .mobile-wireframe img, #gover-layout .mobile-mockup img{
   max-width: 400px;
 }
-
 
 /* About Layout */
 #about-layout h1{
@@ -230,6 +251,28 @@ form{
   #tools-layout{
     justify-content: space-around;
   }
+
+  /* Projects Layout */
+  /* (VPL & Streetfood) */
+  .current-app-screen div, .app-wireframe div{
+    width: 320px;
+  }
+
+  /* WTC & Massybooks */
+  .projects-secondary-container{
+    max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .projects-secondary-container .mobile-wireframe div{
+    width: 320px;
+  }
+  
+  /* Gover */
+  #gover-layout .mobile-wireframe, #gover-layout .mobile-mockup{
+    text-align: center;
+  }
 }
 
 @media (min-width: 750px) {
@@ -263,14 +306,29 @@ form{
   }
 
   /* Project Layout */
+  .projects-container{
+    margin: 0 auto;
+    padding: .5rem;
+  }
+
   /* (Gover) */
   #role-container, #persona-container, #problem-solution{
     flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+
+  #role-container div, #persona-container div{
+    max-width: 240px;
+  }
+
+  #problem-solution div{
+    max-width: 360px;
   }
 
   #gover-layout .mobile-wireframe, #gover-layout .mobile-mockup{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
   }
 
   #gover-layout .mobile-wireframe img, #gover-layout .mobile-mockup img{
@@ -317,6 +375,16 @@ form{
     justify-content: space-evenly;
     max-width: 1590px;
     margin: 0 auto;
+  }
+
+  /* Projects */
+  /* WTC & Massybooks */
+  .projects-secondary-container{
+    flex-flow: row nowrap;
+  }
+
+  .projects-secondary-container .web-wireframe{
+    margin-right: 1rem;
   }
 }
 

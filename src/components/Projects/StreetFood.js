@@ -20,7 +20,7 @@ import truckDetail from '../../image/sf-truck-detail.jpg';
 const StreetFood = () => {
   return (
     <div className="projects-container" id="streetfood-layout">
-      <div>
+      <div className="textbox">
         <h1>Mobile App UX Redesign Project <span>&#8545;</span></h1>
 
         <h2>Street Food App</h2>
@@ -33,14 +33,15 @@ const StreetFood = () => {
       </div>
 
       <div>
-        <h1>Problem Analysis</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+        <div className="textbox">
+          <h1>Problem Analysis</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+        </div>
 
-        <div>
-          <h2>Current App Screens</h2>
-          
+        <h2 className="textbox">Current App Screens</h2>
+        <div className="current-app-screen">      
           <div>
             <p>Current Map Screen</p>
             <img src={previousMap} alt="thumbnail"/>
@@ -58,27 +59,29 @@ const StreetFood = () => {
         </div>
 
         <div>
-          <h2>Current User Flow</h2>
+          <h2 className="textbox">Current User Flow</h2>
           <img className="big-img" src={previousUserFlow} alt="thumbnail"/>
         </div>
 
-        <div>
+        <div className="textbox">
           <a href="https://apps.apple.com/app/street-food-vancouver/id412748042?l=en" className="website-links" target="_blank" rel="noopener noreferrer">
             <ArrowForwardIcon /> Link to App Store
           </a>       
         </div>
       </div>
 
-      <div className="projects-secondary-container">
-        <div>
+      <div>
+        <div className="textbox">
           <h1>Solution</h1>
 
           <p>solution summary</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-          
-          <h2>New User Flow</h2>
+        </div>
+        
+        <div>
+          <h2 className="textbox">New User Flow</h2>
           <img className="big-img" src={newUserFlow} alt="thumbnail"/>
         </div>
 

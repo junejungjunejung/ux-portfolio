@@ -17,7 +17,7 @@ import eventMobile from '../../image/wtc-events-mobile.jpg';
 const WTC = () => {
   return (
     <div className="projects-container" id="wtc-layout">
-      <div>
+      <div className="textbox">
         <h1>Website UX Redesign Project <span>&#8544;</span></h1>
         
         <h2>Women Transforming Cities</h2>
@@ -30,36 +30,40 @@ const WTC = () => {
       </div>
 
       <div>
-        <h1>Problem Analysis</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>      
-        
-        <h2>Current Website Landing Screen</h2>
+        <div className="textbox">
+          <h1>Problem Analysis</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>      
+        </div>
+
+        <h2 className="textbox">Current Website Landing Screen</h2>
         <img className="big-img" src={previousLanding} alt="previous wtc site screen"/>
-        <h2>Current User Flow</h2>
+        <h2 className="textbox">Current User Flow</h2>
         <img className="big-img" src={previousUserFlow} alt="previous wtc user flow"/>
 
-        <div>
+        <div className="textbox">
           <a href="https://www.womentransformingcities.org/" className="website-links" target="_blank" rel="noopener noreferrer">
             <ArrowForwardIcon /> Link to WTC
           </a>
         </div>
       </div>
 
-      <div className="projects-secondary-container">
       <div>
-        <h1>Solution</h1>
+        <div className="textbox">
+          <h1>Solution</h1>
 
-        <p>solution summary</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>solution summary</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+        </div>
 
-        <h2>New User Flow</h2>
+        <h2 className="textbox">New User Flow</h2>
         <img className="big-img" src={newUserFlow} alt="new wtc user flow"/>
       </div>     
 
+      <div className="projects-secondary-container">
         <div className="web-wireframe">
           <div>
             <h2>Landing page desktop wireframe</h2>

@@ -21,7 +21,7 @@ import search from '../../image/vpl-search.jpg';
 const VPL = () => {
   return (
     <div className="projects-container" id="vpl-layout">
-      <div>
+      <div className="textbox">
         <h1>Mobile App UX Redesign Project <span>&#8544;</span></h1>
 
         <h2>Vancouver Public Library Mobile</h2>
@@ -34,14 +34,15 @@ const VPL = () => {
       </div>
 
       <div>
-        <h1>Problem Analysis</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+        <div className="textbox">
+          <h1>Problem Analysis</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>        
+        </div>
 
-        <div>
-          <h2>Current App Screens</h2>
-          
+        <h2 className="textbox">Current App Screens</h2>
+        <div className="current-app-screen">          
           <div>
             <p>Current Explore Screen</p>
             <img src={previousExplore} alt="previous vpl explore screen"/>
@@ -59,27 +60,29 @@ const VPL = () => {
         </div>
 
         <div>
-          <h2>Current User Flow</h2>
+          <h2 className="textbox">Current User Flow</h2>
           <img className="big-img" src={previousUserFlow} alt="previous vpl user flow"/>
         </div>
 
-        <div>
+        <div className="textbox">
           <a href="https://apps.apple.com/app/vpl-mobile/id422360968?l=en" className="website-links" target="_blank" rel="noopener noreferrer">
             <ArrowForwardIcon /> Link to App Store
           </a>        
         </div>
       </div>
 
-      <div className="projects-secondary-container">
-        <div>
+      <div>
+        <div className="textbox">
           <h1>Solution</h1>
 
           <p>solution summary</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-          
-          <h2>New User Flow</h2>
+        </div>
+        
+        <div>
+          <h2 className="textbox">New User Flow</h2>
           <img className="big-img" src={newUserFlow} alt="new vpl user flow"/>
         </div>
 

@@ -63,14 +63,14 @@ import architecture from '../../image/gover-architecture.jpg';
 const Gover = () => {
   return (
     <div className="projects-container" id="gover-layout">
-      <div>
+      <div className="textbox">
         <h1>Gover</h1>
         <h2>Multiplatform Service Design & Development Project</h2>
         <p>The inspection app that will make your work easier, faster, and better.</p>
         <p>The inspection app that will make your work easier, faster, and better.</p>
       </div>
 
-      <div>
+      <div className="textbox">
         <h2>My role</h2>
         <div id="role-container">
           <div>
@@ -94,11 +94,10 @@ const Gover = () => {
       </div>
 
       <div>
-        <div>
-          <h2>Analysis</h2>
-          <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
+        <div className="textbox">
+            <h2>Analysis</h2>
+            <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
 
-          <div>
             <h3>Personas</h3>
             <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
             
@@ -156,7 +155,7 @@ const Gover = () => {
             </div>
           </div>
 
-          <div id="problem-solution">
+          <div className="textbox" id="problem-solution">
             <div>
               <h3>The problem</h3>
               <div>
@@ -199,40 +198,37 @@ const Gover = () => {
           </div>
 
           <div>
-            <h3>How Gover works</h3>
+            <h3 className="textbox">How Gover works</h3>
             <img src={howitworks} alt=""/>
           </div> 
 
-          <div>
-            <h3>Userflow</h3>
-            <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
-            <img src={userflow} alt=""/>
-          </div>
+          <h3 className="textbox">Userflow</h3>
+          <img src={userflow} alt=""/>
 
           <div>
-            <h3>Wireframe</h3>
+            <h3 className="textbox">Wireframe</h3>
 
             <div>
               <div>
-                <h4>Web App</h4>
+                <h4 className="textbox">Web App</h4>
                 <div className="web-wireframe">
                   <div>
-                    <h4>Landing page desktop wireframe</h4>
+                    <h4 className="textbox">Landing page desktop wireframe</h4>
                     <img src={landingWeb} alt="desktop wireframe"/>
                   </div>
         
                   <div>
-                    <h4>Dashboard desktop wireframe</h4>
+                    <h4 className="textbox">Dashboard desktop wireframe</h4>
                     <img src={dashboardWeb} alt="desktop wireframe"/>
                   </div>
 
                   <div>
-                    <h4>Reports desktop wireframe</h4>
+                    <h4 className="textbox">Reports desktop wireframe</h4>
                     <img src={reportsWeb} alt="desktop wireframe"/>
                   </div>
 
                   <div>
-                    <h4>Report item desktop wireframe</h4>
+                    <h4 className="textbox">Report item desktop wireframe</h4>
                     <img src={reportItemWeb} alt="desktop wireframe"/>
                   </div>
                 </div>
@@ -261,25 +257,25 @@ const Gover = () => {
               </div>
 
               <div>
-                <h4>Corporate website</h4>
+                <h4 className="textbox">Corporate website</h4>
                 <div className="web-wireframe">
                   <div>
-                    <h4>Landing page desktop wireframe</h4>
+                    <h4 className="textbox">Landing page desktop wireframe</h4>
                     <img src={homeWeb} alt="desktop wireframe"/>
                   </div>
 
                   <div>
-                    <h4>Pricing page desktop wireframe</h4>
+                    <h4 className="textbox">Pricing page desktop wireframe</h4>
                     <img src={priceWeb} alt="desktop wireframe"/>
                   </div>                  
 
                   <div>
-                    <h4>About page desktop wireframe</h4>
+                    <h4 className="textbox">About page desktop wireframe</h4>
                     <img src={aboutWeb} alt="desktop wireframe"/>
                   </div>
 
                   <div>
-                    <h4>Contact page desktop wireframe</h4>
+                    <h4 className="textbox"> Contact page desktop wireframe</h4>
                     <img src={contactWeb} alt="desktop wireframe"/>
                   </div>
                 </div>
@@ -314,28 +310,28 @@ const Gover = () => {
             </div>
 
             <div>
-              <h3>Mockup</h3>
+              <h3 className="textbox">Mockup</h3>
 
               <div>
-                <h4>Web App</h4>
+                <h4 className="textbox">Web App</h4>
                 <div className="web-mockup">
                   <div>
-                    <h4>Landing page desktop mockup</h4>
+                    <h4 className="textbox">Landing page desktop mockup</h4>
                     <img src={landingWebMock} alt="desktop mockup"/>
                   </div>
         
                   <div>
-                    <h4>Dashboard desktop mockup</h4>
+                    <h4 className="textbox">Dashboard desktop mockup</h4>
                     <img src={dashboardWebMock} alt="desktop mockup"/>
                   </div>
 
                   <div>
-                    <h4>Reports desktop mockup</h4>
+                    <h4 className="textbox">Reports desktop mockup</h4>
                     <img src={reportsWebMock} alt="desktop mockup"/>
                   </div>
 
                   <div>
-                    <h4>Report item desktop mockup</h4>
+                    <h4 className="textbox">Report item desktop mockup</h4>
                     <img src={reportItemWebMock} alt="desktop mockup"/>
                   </div>
                 </div>
@@ -364,25 +360,25 @@ const Gover = () => {
               </div>
 
               <div>
-                <h4>Corporate website</h4>
+                <h4 className="textbox">Corporate website</h4>
                 <div className="web-mockup">
                   <div>
-                    <h4>Landing page desktop mockup</h4>
+                    <h4 className="textbox">Landing page desktop mockup</h4>
                     <img src={homeWebMoc} alt="desktop mockup"/>
                   </div>
 
                   <div>
-                    <h4>Pricing page desktop mockup</h4>
+                    <h4 className="textbox">Pricing page desktop mockup</h4>
                     <img src={priceWebMoc} alt="desktop mockup"/>
                   </div>                  
 
                   <div>
-                    <h4>About page desktop mockup</h4>
+                    <h4 className="textbox">About page desktop mockup</h4>
                     <img src={aboutWebMoc} alt="desktop mockup"/>
                   </div>
 
                   <div>
-                    <h4>Contact page desktop mockup</h4>
+                    <h4 className="textbox">Contact page desktop mockup</h4>
                     <img src={contactWebMoc} alt="desktop mockup"/>
                   </div>
                 </div>
@@ -418,50 +414,53 @@ const Gover = () => {
           </div>
 
           <div>
-            <h2>UI design</h2>
+            <h2 className="textbox">UI design</h2>
 
-            <div>
+            <div className="textbox">
               <h3>Logo</h3>
               <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
-              <img src={logo} alt=""/>
             </div>  
+            <img src={logo} alt=""/>
 
-            <div>
+
+            <div className="textbox">
               <h3>Color palette</h3>
               <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
-              <img src={color} alt=""/>
-            </div> 
+            </div>
+            <img src={color} alt=""/> 
 
-            <div>
+            <div className="textbox">
               <h3>Icons</h3>
               <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
-              <img src={icon1} alt=""/>
-              <img src={icon2} alt=""/>
-            </div>  
+            </div>
+            <img src={icon1} alt=""/>
+            <img src={icon2} alt=""/>  
             
-            <div>
+            <div className="textbox">
               <h3>Typography</h3>
               <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
-              <img src={typography} alt=""/>
-            </div>         
+            </div>
+            <img src={typography} alt=""/>
+       
             
-            <div>
+            <div className="textbox">
               <h3>Asset Design</h3>
               <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
-              <img src={assets} alt=""/>
-            </div> 
+            </div>
+            <img src={assets} alt=""/>
           </div>
 
           <div>
-            <h2>Frontend development</h2>
+            <h2 className="textbox">Frontend development</h2>
 
-            <div>
+            <div className="textbox">
               <h3>Gover Architecture</h3>
               <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
-              <img src={architecture} alt=""/>
-            </div>  
+            </div> 
+            <img src={architecture} alt=""/>
+ 
 
-            <div>
+            <div className="textbox">
               <h3>Web App</h3>
               <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
               <a href="https://github.com/junejungjunejung/goverWebapp" className="website-links" target="_blank" rel="noopener noreferrer">
@@ -470,7 +469,6 @@ const Gover = () => {
             </div>  
           </div>
         </div>
-      </div>
     </div>
   );
 }
