@@ -18,7 +18,7 @@ const LandingPage = () => {
         <div>
           <Link to="/wtc">
             <img src={wtcThumbnail} alt="wtc thumbnail"/>
-            <div>Women Transforming Cities</div>
+            <div className="title">Women Transforming Cities</div>
             <div>Website UX Redesign Project <span>&#8544;</span></div>
           </Link>
         </div>
@@ -26,7 +26,7 @@ const LandingPage = () => {
         <div>
           <Link to="/massybooks">
             <img src={massyThumbnail} alt="massy books thumbnail"/>
-            <div>Massy Books</div>
+            <div className="title">Massy Books</div>
             <div>Website UX Redesign Project <span>&#8545;</span></div>
           </Link>
         </div>
@@ -34,7 +34,7 @@ const LandingPage = () => {
         <div>
           <Link to="/vpl">
             <img src={vplThumbnail} alt="vpl thumbnail"/>
-            <div>Vancouver Public Library Mobile</div>
+            <div className="title">Vancouver Public Library Mobile</div>
             <div>Mobile App UX Redesign Project <span>&#8544;</span></div>
           </Link>
         </div>
@@ -42,7 +42,7 @@ const LandingPage = () => {
         <div>
           <Link to="/streetfood">
             <img src={sfThumbnail} alt="street food app thumbnail"/>
-            <div>Street Food App</div>
+            <div className="title">Street Food App</div>
             <div>Mobile App UX Redesign Project <span>&#8545;</span></div>
           </Link>
         </div>
@@ -50,7 +50,7 @@ const LandingPage = () => {
         <div>
           <Link to="/devreact">
             <img src={reactThumbnail} alt="react development thumbnail"/>
-            <div>Interactive React Development Portfolio</div>
+            <div className="title">Interactive React Development Portfolio</div>
             <div>Web Development Showcase Project</div>
           </Link>
         </div>
@@ -58,7 +58,7 @@ const LandingPage = () => {
         <div>
           <Link to="/gover">
             <img src={goverThumbnail} alt="gover thumbnail"/>
-            <div>Gover</div>
+            <div className="title">Gover</div>
             <div>Multiplatform Service Design & Development Project</div>
           </Link>
         </div>

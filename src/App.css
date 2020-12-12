@@ -22,9 +22,20 @@ h1,h2,h3,h4{
   font-weight: 700;
 }
 
+p{
+  font-size: 1rem;
+}
+
 body{
   font-family: Roboto, sans-serif;
   font-weight: 400;
+}
+
+#landing-layout .title{
+  font-family: 'Noto Sans';
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* Base Styling */
@@ -45,7 +56,8 @@ img{
 }
 
 .projects-container img{
-  border: 1px solid #A5A5A5;
+  border: 1px solid #b8b8b8;
+  border-radius: 5px;
 }
 
 /* Mobile First*/
@@ -63,11 +75,11 @@ img{
 
 #june-jung{
   margin: auto;
-  padding-right: 36px;
+  padding-right: 50px;
 }
 
 .MuiIconButton-label{
-  color: #000000;
+  color: #666666;
 }
 
 #header-layout .MuiSvgIcon-root{
@@ -94,6 +106,11 @@ img{
 
 #nav-hamburger{
   width: 100vw;
+  padding-top: 2rem;
+}
+
+#nav-hamburger li{
+  padding: 1rem 0 1rem 0;
 }
 
 #nav-social{
@@ -107,6 +124,7 @@ img{
 #nav-social-hamburger{
   display: flex;
   flex-flow: column nowrap;
+  padding-bottom: 1rem;
 }
 
 /* Footer (sticky) Layout */
@@ -117,11 +135,16 @@ img{
 }
 
 #footer-layout{
+  padding-top: 2rem;
   margin-top: auto;
   text-align: center;
 }
 
 /* Landing Layout */
+#landing-intro{
+  padding-bottom: 4rem;
+}
+
 #landing h1{
   margin: 0 auto;
   padding: 0 1rem 0 1rem;
@@ -132,15 +155,18 @@ img{
 #landing-layout{
   display: flex;
   flex-flow: column nowrap;
+  padding: 0 .5rem 0 .5rem;
 }
 
 #landing-layout img{
   max-width: 400px;
-  border: 1px solid #828282;
+  border: 1px solid #b8b8b8;
+  border-radius: 5px;
+  margin-bottom: .75rem;
 }
 
 #landing-layout>div{
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 #landing-layout>div>a{
@@ -152,15 +178,26 @@ img{
 /* Projects Layout */
 .projects-container h1{
   text-align: center;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.projects-container h2{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .projects-container{
   max-width: 1000px;
   margin: .5rem;
+  padding-bottom: 2rem;
 }
 
 .big-img{
   max-width: 1000px;
+  margin-bottom: 1rem;
 }
 
 .textbox{
@@ -189,9 +226,15 @@ img{
   max-width: 1200px;
 }
 
+#devreact-layout .textbox{
+  padding-bottom: 2rem;
+}
+
 /* (Gover) */
 #gover-layout img {
   max-width: 1000px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 #role-container, #persona-container, #problem-solution{
@@ -199,14 +242,35 @@ img{
   flex-flow: column nowrap;
 }
 
+#role-container div, #persona-container>div, #problem-solution>div{
+  background-color: #fff;
+  border: solid 1px #b8b8b8;
+  border-radius: 5px;
+
+  padding: 0 .4rem 1rem .5rem;
+  margin-bottom: 1.5rem;
+}
+
+#persona-container>div div:nth-of-type(1), #persona-container>div div:nth-of-type(2){
+  border-bottom: 1px solid #b8b8b8;
+}
+
 #gover-layout .mobile-wireframe img, #gover-layout .mobile-mockup img{
   max-width: 400px;
 }
 
+#gover-layout h3 {
+  padding-top: .5rem;
+}
+
 /* About Layout */
+#about-intro{
+  padding-bottom: 4rem;
+}
+
 #about-layout h1{
   margin: auto;
-  padding: 1rem;
+  padding: 1rem 1rem 1.5rem 1rem;
   max-width: 600px;
   text-align: center;
 }
@@ -217,6 +281,12 @@ img{
   max-width: 400px;
 }
 
+#about-tools>h1{
+  margin: 0 auto;
+  max-width: 90%;
+  border-top: 1px solid #b8b8b8;
+}
+
 #tools-layout{
   display: flex;
   flex-flow: row wrap;
@@ -225,6 +295,10 @@ img{
 
 #tools-layout>div{
   padding: 0 1rem 0 1rem;
+}
+
+#design-layout div:first-of-type{
+  padding-bottom: 1rem;
 }
 
 /* Contact Layout */
@@ -239,6 +313,7 @@ form{
   flex-flow: column nowrap;
   align-items: center;
   min-width: 80vw;
+  margin-top: 1.5rem;
 }
 
 #contact-button{
@@ -248,10 +323,6 @@ form{
 
 /* Responsive */
 @media (min-width: 420px) {
-  #tools-layout{
-    justify-content: space-around;
-  }
-
   /* Projects Layout */
   /* (VPL & Streetfood) */
   .current-app-screen div, .app-wireframe div{
@@ -268,11 +339,22 @@ form{
   .projects-secondary-container .mobile-wireframe div{
     width: 320px;
   }
-  
+
   /* Gover */
   #gover-layout .mobile-wireframe, #gover-layout .mobile-mockup{
     text-align: center;
   }
+
+  /* About Layout */
+  #tools-layout{
+    justify-content: space-around;
+  }
+  
+  /* Contact Layout */
+  form{
+    margin-top: 2rem;
+  }
+
 }
 
 @media (min-width: 750px) {
@@ -309,13 +391,21 @@ form{
   .projects-container{
     margin: 0 auto;
     padding: .5rem;
+    padding-bottom: 2rem;
   }
 
   /* (Gover) */
   #role-container, #persona-container, #problem-solution{
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
+
+  #persona-container>div{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+
 
   #role-container div, #persona-container div{
     max-width: 240px;
@@ -340,6 +430,10 @@ form{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+  }
+
+  #design-layout div:first-of-type{
+    padding-right: 2.5rem;
   }
 
   #about-intro>p{
@@ -385,6 +479,11 @@ form{
 
   .projects-secondary-container .web-wireframe{
     margin-right: 1rem;
+  }
+
+  /* About Layout */
+  #about-tools>h1{
+    max-width: 800px;
   }
 }
 

@@ -103,9 +103,11 @@ const Gover = () => {
             
             <div id="persona-container">
               <div>
-                <h3>Mike Yeo</h3>
-                <p>Real Estate Agent</p>
-                <p>"A good real estate agent always keep up with local and regional market activities. I need an efficient way to organize and update my real estate documents, agreements and reports."</p>
+                <div>
+                  <h3>Mike Yeo</h3>
+                  <p>Real Estate Agent</p>
+                  <p>"A good real estate agent always keep up with local and regional market activities. I need an efficient way to organize and update my real estate documents, agreements and reports."</p>
+                </div>
                 <div>
                   <h3>Goals</h3>
                   <p>-Easy way to access all the inspections he did.</p>
@@ -120,9 +122,11 @@ const Gover = () => {
               </div>
               
               <div>
-                <h3>Leticia Santos</h3>
-                <p>Home Owner</p>
-                <p>"As a landlord, I want to provide the best possible home experience to my renters."</p>
+                <div>
+                  <h3>Leticia Santos</h3>
+                  <p>Home Owner</p>
+                  <p>"As a landlord, I want to provide the best possible home experience to my renters."</p>
+                </div>
                 <div>
                   <h3>Goals</h3>
                   <p>-Comparing inspection of properties before and after each renter's use.</p>
@@ -137,9 +141,11 @@ const Gover = () => {
               </div>
               
               <div>
-                <h3>Matthew Cox</h3>
-                <p>Equipment renting business owner</p>
-                <p>"Filming equipment can be expensive. So I want to use my platform to support filmmaking lovers."</p>
+                <div>
+                  <h3>Matthew Cox</h3>
+                  <p>Equipment renting business owner</p>
+                  <p>"Filming equipment can be expensive. So I want to use my platform to support filmmaking lovers."</p>
+                </div>
                 <div>
                   <h3>Goals</h3>
                   <p>-Keep track on rented item's general condition.</p>
@@ -159,19 +165,19 @@ const Gover = () => {
             <div>
               <h3>The problem</h3>
               <div>
-                <p>1.Time consuming paperwork</p>
+                <b>1.Time consuming paperwork</b>
                 <p>Paper inspection and report generation takes more than 2-3hours to complete.</p>              
               </div>              
               <div>
-                <p>2.Photo organization</p>
+                <b>2.Photo organization</b>
                 <p>Matching betweent inspection notes and big volumn of photos that were taken during the inspection can be overwhelming task.</p>              
               </div>     
               <div>
-                <p>3.Manual note taking</p>
+                <b>3.Manual note taking</b>
                 <p>Stop to take notes during inspection can slow productivity.</p>              
-              </div>      
+              </div>     
               <div>
-                <p>4.Limit of the physical documents</p>
+                <b>4.Limit of the physical documents</b>
                 <p>Sending physical documents between stakeholders, and having it signed takes valuable time.</p>              
               </div>  
             </div> 
@@ -179,19 +185,19 @@ const Gover = () => {
             <div>
               <h3>The Solution</h3>
               <div>
-                <p>1.Inspection template</p>
+                <b>1.Inspection template</b>
                 <p>Premade inspction templates are generated automatically based on the property type.</p>              
               </div>              
               <div>
-                <p>2.Photo organization</p>
+                <b>2.Photo organization</b>
                 <p>When the user takes/uploads photos, Gover Automatically links them to the item the user is inspecting.</p>              
               </div>     
               <div>
-                <p>3.Streamline notes</p>
+                <b>3.Streamline notes</b>
                 <p>On mobile phone, the user can simply use the voice memo feature, and Gover will convert it to text.</p>              
               </div>      
               <div>
-                <p>4.Save time on reports</p>
+                <b>4.Save time on reports</b>
                 <p>Report can be generated and shared to the landlord using Gover, which can be easily signed and confirmed.</p>              
               </div>                          
             </div> 
@@ -210,99 +216,99 @@ const Gover = () => {
 
             <div>
               <div>
-                <h4 className="textbox">Web App</h4>
+                <h3 className="textbox">Web App</h3>
                 <div className="web-wireframe">
                   <div>
-                    <h4 className="textbox">Landing page desktop wireframe</h4>
+                    <h3 className="textbox">Landing page desktop wireframe</h3>
                     <img src={landingWeb} alt="desktop wireframe"/>
                   </div>
         
                   <div>
-                    <h4 className="textbox">Dashboard desktop wireframe</h4>
+                    <h3 className="textbox">Dashboard desktop wireframe</h3>
                     <img src={dashboardWeb} alt="desktop wireframe"/>
                   </div>
 
                   <div>
-                    <h4 className="textbox">Reports desktop wireframe</h4>
+                    <h3 className="textbox">Reports desktop wireframe</h3>
                     <img src={reportsWeb} alt="desktop wireframe"/>
                   </div>
 
                   <div>
-                    <h4 className="textbox">Report item desktop wireframe</h4>
+                    <h3 className="textbox">Report item desktop wireframe</h3>
                     <img src={reportItemWeb} alt="desktop wireframe"/>
                   </div>
                 </div>
         
                 <div className="mobile-wireframe">
                   <div>
-                    <h4>Landing page mobile wireframe</h4>
+                    <h3>Landing page mobile wireframe</h3>
                     <img src={landingMobile} alt="mobile wireframe"/>
                   </div> 
 
                   <div>
-                    <h4>Dashboard mobile wireframe</h4>
+                    <h3>Dashboard mobile wireframe</h3>
                     <img src={dashboardMobile} alt="mobile wireframe"/>
                   </div>
 
                   <div>
-                    <h4>Reports mobile wireframe</h4>
+                    <h3>Reports mobile wireframe</h3>
                     <img src={reportsMobile} alt="mobile wireframe"/>
                   </div>
                   
                   <div>
-                    <h4>Report Item mobile wireframe</h4>
+                    <h3>Report Item mobile wireframe</h3>
                     <img src={reportItemtMobile} alt="mobile wireframe"/>
                   </div>
                 </div>
               </div>
 
               <div>
-                <h4 className="textbox">Corporate website</h4>
+                <h3 className="textbox">Corporate website</h3>
                 <div className="web-wireframe">
                   <div>
-                    <h4 className="textbox">Landing page desktop wireframe</h4>
+                    <h3 className="textbox">Landing page desktop wireframe</h3>
                     <img src={homeWeb} alt="desktop wireframe"/>
                   </div>
 
                   <div>
-                    <h4 className="textbox">Pricing page desktop wireframe</h4>
+                    <h3 className="textbox">Pricing page desktop wireframe</h3>
                     <img src={priceWeb} alt="desktop wireframe"/>
                   </div>                  
 
                   <div>
-                    <h4 className="textbox">About page desktop wireframe</h4>
+                    <h3 className="textbox">About page desktop wireframe</h3>
                     <img src={aboutWeb} alt="desktop wireframe"/>
                   </div>
 
                   <div>
-                    <h4 className="textbox"> Contact page desktop wireframe</h4>
+                    <h3 className="textbox"> Contact page desktop wireframe</h3>
                     <img src={contactWeb} alt="desktop wireframe"/>
                   </div>
                 </div>
 
                 <div className="mobile-wireframe">
                   <div>
-                    <h4>Landing page mobile wireframe</h4>
+                    <h3>Landing page mobile wireframe</h3>
                     <img src={homeMobile} alt="mobile wireframe"/>
                   </div>
         
                   <div>
-                    <h4>Mobile navigation wireframe</h4>
+                    <h3>Mobile navigation wireframe</h3>
                     <img src={menuMobile} alt="mobile wireframe"/>
                   </div>
         
                   <div>
-                    <h4>Pricing page mobile wireframe</h4>
+                    <h3>Pricing page mobile wireframe</h3>
                     <img src={priceMobile} alt="mobile wireframe"/>
                   </div> 
 
                   <div>
-                    <h4>About page mobile wireframe</h4>
+                    <h3>About page mobile wireframe</h3>
                     <img src={aboutMobile} alt="mobile wireframe"/>
                   </div>
         
                   <div>
-                    <h4>Contact page mobile wireframe</h4>
+                    <h3>Contact page mobile wireframe</h3>
                     <img src={contactMobile} alt="mobile wireframe"/>
                   </div>
                 </div>
@@ -313,99 +319,99 @@ const Gover = () => {
               <h3 className="textbox">Mockup</h3>
 
               <div>
-                <h4 className="textbox">Web App</h4>
+                <h3 className="textbox">Web App</h3>
                 <div className="web-mockup">
                   <div>
-                    <h4 className="textbox">Landing page desktop mockup</h4>
+                    <h3 className="textbox">Landing page desktop mockup</h3>
                     <img src={landingWebMock} alt="desktop mockup"/>
                   </div>
         
                   <div>
-                    <h4 className="textbox">Dashboard desktop mockup</h4>
+                    <h3 className="textbox">Dashboard desktop mockup</h3>
                     <img src={dashboardWebMock} alt="desktop mockup"/>
                   </div>
 
                   <div>
-                    <h4 className="textbox">Reports desktop mockup</h4>
+                    <h3 className="textbox">Reports desktop mockup</h3>
                     <img src={reportsWebMock} alt="desktop mockup"/>
                   </div>
 
                   <div>
-                    <h4 className="textbox">Report item desktop mockup</h4>
+                    <h3 className="textbox">Report item desktop mockup</h3>
                     <img src={reportItemWebMock} alt="desktop mockup"/>
                   </div>
                 </div>
         
                 <div className="mobile-mockup">
                   <div>
-                    <h4>Landing page mobile mockup</h4>
+                    <h3>Landing page mobile mockup</h3>
                     <img src={landingMobileMock} alt="mobile mockup"/>
                   </div>
         
                   <div>
-                    <h4>Dashboard mobile mockup</h4>
+                    <h3>Dashboard mobile mockup</h3>
                     <img src={dashboardMobileMock} alt="mobile mockup"/>
                   </div>
         
                   <div>
-                    <h4>Reports mobile mockup</h4>
+                    <h3>Reports mobile mockup</h3>
                     <img src={reportsMobileMock} alt="mobile mockup"/>
                   </div>
         
                   <div>
-                    <h4>Report Item mobile mockup</h4>
+                    <h3>Report Item mobile mockup</h3>
                     <img src={reportItemtMobileMock} alt="mobile mockup"/>
                   </div>
                 </div>
               </div>
 
               <div>
-                <h4 className="textbox">Corporate website</h4>
+                <h3 className="textbox">Corporate website</h3>
                 <div className="web-mockup">
                   <div>
-                    <h4 className="textbox">Landing page desktop mockup</h4>
+                    <h3 className="textbox">Landing page desktop mockup</h3>
                     <img src={homeWebMoc} alt="desktop mockup"/>
                   </div>
 
                   <div>
-                    <h4 className="textbox">Pricing page desktop mockup</h4>
+                    <h3 className="textbox">Pricing page desktop mockup</h3>
                     <img src={priceWebMoc} alt="desktop mockup"/>
                   </div>                  
 
                   <div>
-                    <h4 className="textbox">About page desktop mockup</h4>
+                    <h3 className="textbox">About page desktop mockup</h3>
                     <img src={aboutWebMoc} alt="desktop mockup"/>
                   </div>
 
                   <div>
-                    <h4 className="textbox">Contact page desktop mockup</h4>
+                    <h3 className="textbox">Contact page desktop mockup</h3>
                     <img src={contactWebMoc} alt="desktop mockup"/>
                   </div>
                 </div>
 
                 <div className="mobile-mockup">
                   <div>
-                    <h4>Landing page mobile mockup</h4>
+                    <h3>Landing page mobile mockup</h3>
                     <img src={homeMobileMoc} alt="mobile mockup"/>
                   </div>
         
                   <div>
-                    <h4>Mobile navigation mockup</h4>
+                    <h3>Mobile navigation mockup</h3>
                     <img src={menuMobileMoc} alt="mobile mockup"/>
                   </div>
 
                   <div>
-                    <h4>Pricing page mobile mockup</h4>
+                    <h3>Pricing page mobile mockup</h3>
                     <img src={priceMobileMoc} alt="mobile mockup"/>
                   </div>                  
 
                   <div>
-                    <h4>About page mobile mockup</h4>
+                    <h3>About page mobile mockup</h3>
                     <img src={aboutMobileMoc} alt="mobile mockup"/>
                   </div>
         
                   <div>
-                    <h4>Contact page mobile mockup</h4>
+                    <h3>Contact page mobile mockup</h3>
                     <img src={contactMobileMoc} alt="mobile mockup"/>
                   </div>
                 </div>
