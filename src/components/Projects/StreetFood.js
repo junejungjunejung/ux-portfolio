@@ -1,4 +1,5 @@
 import React from 'react';
+import Divider from '@material-ui/core/Divider';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 import previousList from '../../image/sf-current-list.jpg';
@@ -31,6 +32,8 @@ const StreetFood = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
       </div>
+
+      <Divider className="divider"/>
 
       <div>
         <div className="textbox">
@@ -69,6 +72,8 @@ const StreetFood = () => {
           </a>       
         </div>
       </div>
+
+      <Divider className="divider"/>
 
       <div>
         <div className="textbox">

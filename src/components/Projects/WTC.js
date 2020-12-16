@@ -1,4 +1,5 @@
 import React from 'react';
+import Divider from '@material-ui/core/Divider';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 import previousLanding from '../../image/wtc-current-landing.jpg';
@@ -29,6 +30,8 @@ const WTC = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
       </div>
 
+      <Divider className="divider"/>
+
       <div>
         <div className="textbox">
           <h1>Problem Analysis</h1>
@@ -48,6 +51,8 @@ const WTC = () => {
           </a>
         </div>
       </div>
+
+      <Divider className="divider"/>
 
       <div>
         <div className="textbox">

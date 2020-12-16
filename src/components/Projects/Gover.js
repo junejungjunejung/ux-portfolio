@@ -1,4 +1,5 @@
 import React from 'react';
+import Divider from '@material-ui/core/Divider';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 import howitworks from '../../image/gover-howitworks.jpg';
@@ -66,8 +67,7 @@ const Gover = () => {
       <div className="textbox">
         <h1>Gover</h1>
         <h2>Multiplatform Service Design & Development Project</h2>
-        <p>The inspection app that will make your work easier, faster, and better.</p>
-        <p>The inspection app that will make your work easier, faster, and better.</p>
+        <p>Gover is a multiplatform service that enables property and equipment inspection seamless and faster.</p>
       </div>
 
       <div className="textbox">
@@ -75,23 +75,22 @@ const Gover = () => {
         <div id="role-container">
           <div>
             <h3>UX design</h3>
-            <p>"The inspection app that will make your work easier, faster, and better."</p>
-            <p>"The inspection app that will make your work easier, faster, and better."</p>
+            <p>I researched and created the User Personas, designed a user flow for the Gover corporate website and Web application, and developed a wireframe and a mockup for the Gover Web application.</p>
           </div>
 
           <div>
             <h3>UI design</h3>
-            <p>"The inspection app that will make your work easier, faster, and better."</p>
-            <p>"The inspection app that will make your work easier, faster, and better."</p>
+            <p>As a part of the design team, I created the brand identity and designed assets such as icons, buttons, and cards used throughout the platforms includes the Gover Web application, the corporate website, the Android application.</p>
           </div>
 
           <div>
             <h3>Frontend development</h3>
-            <p>"The inspection app that will make your work easier, faster, and better."</p>
-            <p>"The inspection app that will make your work easier, faster, and better."</p>
+            <p>I developed a functional vertical prototype of the Gover Web application utilizing Email authentication and PDF viewer using Angular JS, and Bootstrap 4 in 3 month period.</p>
           </div>
         </div>
       </div>
+
+      <Divider className="divider"/>
 
       <div>
         <div className="textbox">
@@ -203,6 +202,7 @@ const Gover = () => {
             </div> 
           </div>
 
+          <Divider className="divider"/>
           <div>
             <h3 className="textbox">How Gover works</h3>
             <img src={howitworks} alt=""/>
@@ -210,6 +210,8 @@ const Gover = () => {
 
           <h3 className="textbox">Userflow</h3>
           <img src={userflow} alt=""/>
+
+          <Divider className="divider"/>
 
           <div>
             <h3 className="textbox">Wireframe</h3>
@@ -315,6 +317,8 @@ const Gover = () => {
               </div>
             </div>
 
+            <Divider className="divider"/>
+
             <div>
               <h3 className="textbox">Mockup</h3>
 
@@ -419,6 +423,8 @@ const Gover = () => {
             </div>      
           </div>
 
+          <Divider className="divider"/>
+
           <div>
             <h2 className="textbox">UI design</h2>
 
@@ -455,6 +461,8 @@ const Gover = () => {
             </div>
             <img src={assets} alt=""/>
           </div>
+
+          <Divider className="divider"/>
 
           <div>
             <h2 className="textbox">Frontend development</h2>

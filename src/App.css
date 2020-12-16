@@ -205,6 +205,10 @@ img{
   max-width: 750px;
 }
 
+.divider{
+  margin: 2rem 0 1rem 0 !important;
+}
+
 .mobile-wireframe{
   margin: 0 auto;
 }
@@ -349,7 +353,7 @@ form{
   #tools-layout{
     justify-content: space-around;
   }
-  
+
   /* Contact Layout */
   form{
     margin-top: 2rem;

@@ -20,22 +20,23 @@ const AboutPage = () => {
                 <p>Persona</p>            
                 <p>User Flow</p>
                 <p>Wireframe</p>
-                <p>Prototype</p>
                 <p>Mockup</p>
+                <p>Prototype</p>
+                <p>Style guide / UI kit</p>
                 <p>Responsive Design</p>
                 <p>Agile Methodology</p>
               </div>
 
               <div>
                 <h3>Softwares</h3>
+                <p>Trello</p>
                 <p>Figma</p>
                 <p>Zeplin</p>
-                <p>Adobe Photoshop</p>
-                <p>Adobe Illustrator</p>
+                <p>Sketch</p>
                 <p>Adobe XD</p>
                 <p>Adobe InDesign</p>
-                <p>Sketch</p>
-                <p>Trello</p>
+                <p>Adobe Illustrator</p>
+                <p>Adobe Photoshop</p>
               </div>
             </div>
           </div>
@@ -45,24 +46,25 @@ const AboutPage = () => {
 
             <div id="dev-layout">
               <div>
+                <p>JavaScript ES6</p>
                 <p>React.JS</p>
                 <p>Rest API</p>
                 <p>Firebase</p>
                 <p>Material-UI</p>
+                <p>Authentication</p>
+                <p>WordPress</p>
                 <p>Node.Js</p>
                 <p>Express.Js</p>
-                <p>MySQL</p>
-                <p>Git</p>
-                <p>NPM</p>
               </div>
               <div>
+                <p>Git</p>
                 <p>Yarn</p>
-                <p>Webpack</p>
+                <p>NPM</p>
                 <p>Docker</p>
-                <p>WordPress</p>
+                <p>MySQL</p>
+                <p>Webpack</p>
                 <p>HTML</p>
                 <p>CSS</p>
-                <p>JavaScript</p>
                 <p>SCSS</p>
               </div>
             </div>
