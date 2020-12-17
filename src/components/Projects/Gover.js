@@ -68,24 +68,25 @@ const Gover = () => {
         <h1>Gover</h1>
         <h2>Multiplatform Service Design & Development Project</h2>
         <p>Gover is a multiplatform service that enables property and equipment inspection seamless and faster.</p>
-      </div>
+        <p>There are three parts to the project that are the native Android app, the web app, and the corporate website. I took part in designing and developing mainly the web app and the corporate website.</p>
+        </div>
 
       <div className="textbox">
         <h2>My role</h2>
         <div id="role-container">
           <div>
             <h3>UX design</h3>
-            <p>I researched and created the User Personas, designed a user flow for the Gover corporate website and Web application, and developed a wireframe and a mockup for the Gover Web application.</p>
+            <p>I researched and created the User Personas, designed the user flow for the Gover corporate website and Web application. Also, I developed the wireframe and the mockup for the Gover web application.</p>
           </div>
 
           <div>
             <h3>UI design</h3>
-            <p>As a part of the design team, I created the brand identity and designed assets such as icons, buttons, and cards used throughout the platforms includes the Gover Web application, the corporate website, the Android application.</p>
+            <p>As a part of the design team, I created the brand identity and designed assets such as icons, buttons, and cards used throughout the platforms include the Gover web application, the corporate website, the Android application.</p>
           </div>
 
           <div>
             <h3>Frontend development</h3>
-            <p>I developed a functional vertical prototype of the Gover Web application utilizing Email authentication and PDF viewer using Angular JS, and Bootstrap 4 in 3 month period.</p>
+            <p>I developed the functional vertical prototype of the Gover web application that utilizes the Email authentication and the PDF viewer component with the Angular JS and the Bootstrap4 in 3 months period.</p>
           </div>
         </div>
       </div>
@@ -94,29 +95,30 @@ const Gover = () => {
 
       <div>
         <div className="textbox">
-            <h2>Analysis</h2>
-            <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
+            <h2>UX Design</h2>
+            <p>There are many property inspection apps available out there. However, most of these apps are catering to big property management firms, with complicated inspection customization. Gover is offering a simple and affordable solution for small scale property and equipment owners.
+            </p>
 
             <h3>Personas</h3>
-            <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
+            <p>I created three personas with different goals and frustrations. To cater to the users with different backgrounds and needs, I decided to provide inspection templates based on their chosen property type.</p>
             
             <div id="persona-container">
               <div>
                 <div>
                   <h3>Mike Yeo</h3>
                   <p>Real Estate Agent</p>
-                  <p>"A good real estate agent always keep up with local and regional market activities. I need an efficient way to organize and update my real estate documents, agreements and reports."</p>
+                  <p>"A good real estate agent always keeps up with local and regional market activities. I need an efficient way to organize and update my real estate documents, agreements, and reports."</p>
                 </div>
                 <div>
                   <h3>Goals</h3>
                   <p>-Easy way to access all the inspections he did.</p>
-                  <p>-Creating a report quickly for sharing.</p>             
+                  <p>-Creating a report quickly for sharing with clients and coworkers.</p>             
                 </div>
                 <div>
                   <h3>Frustration</h3>
-                  <p>-Inspections are usually done by a third party.</p>
-                  <p>-Lack of a document sorting system which provides easy access.</p>  
-                  <p>-Reports are documented manually.</p>              
+                  <p>-Usually, third-party contractors do the inspection and create a time delay.</p>
+                  <p>-Lack of a inspection report sorting system that provides easy access.</p>  
+                  <p>-Reports need to be documented manually.</p>              
                 </div>
               </div>
               
@@ -128,14 +130,14 @@ const Gover = () => {
                 </div>
                 <div>
                   <h3>Goals</h3>
-                  <p>-Comparing inspection of properties before and after each renter's use.</p>
-                  <p>-Review the inspection thoroughly and easily.</p>             
+                  <p>-Comparing the inspection of a property before and after each renter's use.</p>
+                  <p>-Review the inspection report thoroughly and conveniently.</p>             
                 </div>
                 <div>
                   <h3>Frustration</h3>
-                  <p>-Heavy property management and maintenance.</p>
+                  <p>-Keeping up with property management and maintenance.</p>
                   <p>-Lengthy eviction process.</p>  
-                  <p>-Difficulty in keeping track of several property's status.</p>              
+                  <p>-Difficulty in keeping track of several properties statuses.</p>              
                 </div>
               </div>
               
@@ -147,14 +149,14 @@ const Gover = () => {
                 </div>
                 <div>
                   <h3>Goals</h3>
-                  <p>-Keep track on rented item's general condition.</p>
-                  <p>-Having a logical system to file rented equipments.</p>             
+                  <p>-Keeping track of rented item's general condition.</p>
+                  <p>-Having a logical system to document rented equipment.</p>             
                 </div>
                 <div>
                   <h3>Frustration</h3>
-                  <p>-Time consuming inspection process.</p>
-                  <p>-Keeping records on rented items before and after condition.</p>  
-                  <p>-Following item's renting history.</p>              
+                  <p>-Time-consuming inspection process.</p>
+                  <p>-Keeping the records on rented items before and after condition.</p>  
+                  <p>-Following the renting history of the item.</p>              
                 </div>
               </div>                                
             </div>
@@ -165,19 +167,19 @@ const Gover = () => {
               <h3>The problem</h3>
               <div>
                 <b>1.Time consuming paperwork</b>
-                <p>Paper inspection and report generation takes more than 2-3hours to complete.</p>              
+                <p>Paper inspection and report generation take more than 2-3hours to complete.</p>              
               </div>              
               <div>
                 <b>2.Photo organization</b>
-                <p>Matching betweent inspection notes and big volumn of photos that were taken during the inspection can be overwhelming task.</p>              
+                <p>Matching between inspection notes and a large volume of photos that were taken during the inspection can be an overwhelming task.</p>              
               </div>     
               <div>
                 <b>3.Manual note taking</b>
-                <p>Stop to take notes during inspection can slow productivity.</p>              
+                <p>The need for stop to take notes during inspection can slow productivity.</p>              
               </div>     
               <div>
                 <b>4.Limit of the physical documents</b>
-                <p>Sending physical documents between stakeholders, and having it signed takes valuable time.</p>              
+                <p>Sending physical documents between stakeholders, and having them signed takes valuable time.</p>              
               </div>  
             </div> 
 
@@ -185,7 +187,7 @@ const Gover = () => {
               <h3>The Solution</h3>
               <div>
                 <b>1.Inspection template</b>
-                <p>Premade inspction templates are generated automatically based on the property type.</p>              
+                <p>Premade inspection templates are generated automatically based on the property type.</p>              
               </div>              
               <div>
                 <b>2.Photo organization</b>
@@ -193,11 +195,11 @@ const Gover = () => {
               </div>     
               <div>
                 <b>3.Streamline notes</b>
-                <p>On mobile phone, the user can simply use the voice memo feature, and Gover will convert it to text.</p>              
+                <p>On a mobile device, the user can simply use the voice memo feature, and Gover will convert it to text.</p>              
               </div>      
               <div>
                 <b>4.Save time on reports</b>
-                <p>Report can be generated and shared to the landlord using Gover, which can be easily signed and confirmed.</p>              
+                <p>The report can be generated and shared with the landlord using Gover, which can be readily signed and confirmed.</p>              
               </div>                          
             </div> 
           </div>
@@ -209,16 +211,17 @@ const Gover = () => {
           </div> 
 
           <h3 className="textbox">Userflow</h3>
+          <div className="textbox">
+            <p>The user flow below shows that the corporate website is connected to the web app via the login button. The web app can be only accessible by users with credentials. The web app provides the same functionality as the Android app except for the native mobile behavior such as the camera roll and the voice to text access.</p>
+          </div>
           <img src={userflow} alt=""/>
 
           <Divider className="divider"/>
 
           <div>
-            <h3 className="textbox">Wireframe</h3>
-
+            <h3 className="textbox">Wireframe - Web App</h3>
             <div>
               <div>
-                <h3 className="textbox">Web App</h3>
                 <div className="web-wireframe">
                   <div>
                     <h3 className="textbox">Landing page desktop wireframe</h3>
@@ -265,7 +268,7 @@ const Gover = () => {
               </div>
 
               <div>
-                <h3 className="textbox">Corporate website</h3>
+                <h3 className="textbox">Wireframe - Corporate website</h3>
                 <div className="web-wireframe">
                   <div>
                     <h3 className="textbox">Landing page desktop wireframe</h3>
@@ -320,10 +323,8 @@ const Gover = () => {
             <Divider className="divider"/>
 
             <div>
-              <h3 className="textbox">Mockup</h3>
-
+              <h3 className="textbox">Mockup - Web App</h3>
               <div>
-                <h3 className="textbox">Web App</h3>
                 <div className="web-mockup">
                   <div>
                     <h3 className="textbox">Landing page desktop mockup</h3>
@@ -370,7 +371,7 @@ const Gover = () => {
               </div>
 
               <div>
-                <h3 className="textbox">Corporate website</h3>
+                <h3 className="textbox">Mockup - Corporate website</h3>
                 <div className="web-mockup">
                   <div>
                     <h3 className="textbox">Landing page desktop mockup</h3>
@@ -430,34 +431,34 @@ const Gover = () => {
 
             <div className="textbox">
               <h3>Logo</h3>
-              <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
+              <p>Gover is short for 'go over'. The top part of the letter 'g' symbolizes the magnify glass for inspecting closely. The responsive logo can be used as an icon and a favicon.</p>
             </div>  
             <img src={logo} alt=""/>
 
 
             <div className="textbox">
               <h3>Color palette</h3>
-              <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
+              <p>To avoid the stereotypical image of inspection, we decided to utilize bright and vivid colors. The primary brand color is saturated coral, and the accent color is a linear gradient green that is complementary to the primary color.</p>
             </div>
             <img src={color} alt=""/> 
 
             <div className="textbox">
               <h3>Icons</h3>
-              <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
+              <p>There are the simple lined style icons for primary use throughout all platforms and the multi-colored isometric icons for accent use mainly for visual user engagement.</p>
             </div>
             <img src={icon1} alt=""/>
             <img src={icon2} alt=""/>  
             
             <div className="textbox">
               <h3>Typography</h3>
-              <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
+              <p>We chose Saira for Headings and Montserrat for body text. Both san-serif fonts convey a more casual approach to the inspection process.</p>
             </div>
             <img src={typography} alt=""/>
        
             
             <div className="textbox">
               <h3>Asset Design</h3>
-              <p>Submitting a location you want to look up the weather for, which will fetch current weather forecast JSON data from the ‘Weather API’ REST API.</p>
+              <p>We designed modular cards for list items and forms to accommodate the fluid responsive design.</p>
             </div>
             <img src={assets} alt=""/>
           </div>
