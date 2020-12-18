@@ -38,6 +38,11 @@ body{
   text-align: center;
 }
 
+.website-links{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 /* Base Styling */
 ul {
   list-style-type: none;
@@ -211,6 +216,16 @@ img{
 
 .mobile-wireframe{
   margin: 0 auto;
+}
+
+.website-links{
+  display:flex;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.website-links svg{
+  padding-right: .25rem;
 }
 
 /* (VPL & Streetfood) */
