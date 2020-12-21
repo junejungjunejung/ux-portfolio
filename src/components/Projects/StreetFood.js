@@ -25,7 +25,7 @@ const StreetFood = () => {
         <h1>Mobile App UX Redesign Project <span>&#8545;</span></h1>
 
         <h2>Street Food App</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+        <p>A mobile app provides location and schedule of city's food trucks.</p>
 
         <p>project summary</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
