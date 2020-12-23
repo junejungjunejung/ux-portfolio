@@ -23,11 +23,6 @@ const WTC = () => {
         
         <h2>Women Transforming Cities</h2>
         <p>WTC is a nonprofit organization based in Vancouver, Canada that works to educate, promote awareness and take action on issues such as affordable housing, violence against women, leadership, electoral reform, aboriginal women’s priorities, and the environment.</p>
-
-        <p>project summary</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
       </div>
 
       <Divider className="divider"/>
@@ -35,9 +30,10 @@ const WTC = () => {
       <div>
         <div className="textbox">
           <h1>Problem Analysis</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>      
+          <p>As the latest statistics show that more than 50 percent of web traffic worldwide comes from mobile users, a website must have seamless responsiveness throughout flatforms. However, WTC's website doesn't have a mobile view, and when I accessed it via a mobile device, the website looked visually broken.</p>
+          <p>The top navigation bar has unexpected behavior as in, the heading of the drop-down menu is a link of its own page, makes the user experience confusing. Also, the content of the said page overlaps with the pages from the drop-down menus.</p>
+          <p>Several pages of the website are links to other websites and articles which lowers retention of the users and ultimately encourages the users to leave the website.</p>      
+          <p>The overall layout of the website is distractive to the users because the elements don't have hierarchy and clear divisions to one another but are scattered around throughout the website.</p>
         </div>
 
         <h2 className="textbox">Current Website Landing Screen</h2>
@@ -58,10 +54,21 @@ const WTC = () => {
         <div className="textbox">
           <h1>Solution</h1>
 
-          <p>solution summary</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>First and foremost, I wanted to modernize the website by making it responsive and make it more accessible to a bigger audience.</p>
+          <p>Secondly, I reorganized and simplified the top navigation by giving it a more expected behavior by removing the functionality in the header of the drop-down menus and merge the content together by rearranging them.</p>
+          <p>The current WTC website landing page is mainly composed of links to recommended articles and since the landing page is the most valuable asset, I wanted to promote user involvement. I added CTA sections to encourage the users to register for events, join the membership, and donate to the organization as well as subscribe to newsletters.</p>
+          <p>I decided to declutter the footer and reduce the size by removing the excessive white space which takes up valuable space that could be used otherwise.</p>
+        </div>
+
+        <div className="textbox">
+          <h2>User Story</h2>
+          <p>as a user, I want to…</p>
+          <p>-Following up to date news related to social movements.</p>
+          <p>-Read articles on the organization’s activity.</p>
+          <p>-See upcoming events and share events on my social media platform.</p>
+          <p>-Be part of the community by becoming a member.</p>
+          <p>-Be part of the community by becoming a volunteer.</p>
+          <p>-Help the organization by donation.</p>
         </div>
 
         <h2 className="textbox">New User Flow</h2>
@@ -72,19 +79,24 @@ const WTC = () => {
         <div className="web-wireframe">
           <div>
             <h2>Landing page desktop wireframe</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+            <p>Reduced the vertical space of the top navigation bar by relocating the 'Donate' button end of the right side to make it less distracting.</p>
+            <p>Changed the layout of the article to modular cards for an easy transition to the mobile view.</p>
+            <p>Added 'Events', 'Membership', and 'Donate' CTA sections to encourage user interaction.</p>
             <img src={landingWeb} alt="landing page desktop wireframe"/>
           </div>
 
           <div>
             <h2>About page desktop wireframe</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+            <p>Merged three separate pages to the 'Who We Are' page without reducing or removing the content but rearranging the layout. The users can oversee the organization as a whole.</p>
             <img src={aboutWeb} alt="about page desktop wireframe"/>
           </div>
 
           <div>
             <h2>Events page desktop wireframe</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+            <p>The 'Events' page was in the 'Our Work' section originally but I relocated them to the 'Get Involved' section for relevance in context.</p>
+            <p>TThe page was displaying the whole content of the events including all the fine text and links to related sites make them hard to read. Instead, I changed it to summary cards.</p>
+            <p>Changed the original pagination to infinite scroll for mobile view friendly user interaction.
+            </p>
             <img src={eventWeb} alt="events page desktop wireframe"/>
           </div>
         </div>

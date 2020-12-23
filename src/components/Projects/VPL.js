@@ -79,10 +79,9 @@ const VPL = () => {
         <div className="textbox">
           <h1>Solution</h1>
 
-          <p>remove redundancy and streamline user flow. Since most of the VPL mobile app services are accessable only by the signed in users, I moved the login screen from placed in sebral levels through out the app blocking user interaction to logging in once at the landing screen to provide more fluient user experiance.</p>
-          <p>-I decided to add digital sign up funtionality in the app for more streamlined experiance.</p>
-          <p>-Fee can be paid through in app payment </p>
-          <p>-User can view events held in libraries with in the app and manage event schedule for themselves</p>
+          <p>Overall, I wanted to give VPL Mobile app a streamlined user experience by providing functionalities that can help the users perform most of the library process with the app and minimizing the need for physical visitings, and removing redundant, unnecessary contents complicating the user flow.</p>
+          <p>For example, I moved the login screen from placed in several locations throughout the app blocking user's interaction to logging in once at the landing screen, added the digital sign-up functionality, also, add the in-app credit card payment section to enable users to pay the fee online.</p>
+          <p>For the user interface, I made changes in layout to give a more coherent and unified look and a more modern interface.</p>
         </div>
         
         <div className="textbox">
