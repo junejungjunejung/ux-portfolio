@@ -88,13 +88,14 @@ const WTC = () => {
           <div>
             <h2>About page desktop wireframe</h2>
             <p>Merged three separate pages to the 'Who We Are' page without reducing or removing the content but rearranging the layout. The users can oversee the organization as a whole.</p>
+            <p>Originally, the users can see WTC team member's names and roles by hovering over a profile photo. I changed it to card design with the information visible since mobile doesn't have the hover functionality available.</p>
             <img src={aboutWeb} alt="about page desktop wireframe"/>
           </div>
 
           <div>
             <h2>Events page desktop wireframe</h2>
             <p>The 'Events' page was in the 'Our Work' section originally but I relocated them to the 'Get Involved' section for relevance in context.</p>
-            <p>TThe page was displaying the whole content of the events including all the fine text and links to related sites make them hard to read. Instead, I changed it to summary cards.</p>
+            <p>The page was displaying the whole content of the events including all the fine text and links to related sites make them hard to read. Instead, I changed it to summary cards.</p>
             <p>Changed the original pagination to infinite scroll for mobile view friendly user interaction.
             </p>
             <img src={eventWeb} alt="events page desktop wireframe"/>
@@ -104,25 +105,25 @@ const WTC = () => {
         <div className="mobile-wireframe">
           <div>
             <h2>Landing page mobile wireframe</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+            <p>To give equal importance throughout the sections in landing views, I decided the layout of the articles horizontal swipe instead of stacking vertically and taking up the major portion of the screen.</p>
             <img src={landingMobile} alt="landing page mobile wireframe"/>
           </div>
 
           <div>
             <h2>Mobile navigation menu wireframe</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+            <p>I chose a vertically stacked hamburger navigation for the mobile view. Submenus are visible by toggling accordion-style menu buttons.</p>
             <img src={hamburger} alt="navigation menu mobile wireframe"/>
           </div>
 
           <div>
             <h2>About page mobile wireframe</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+            <p>Because board members are stakeholders of the organization, even though the length of the screen gets longer, I decided to show all the profiles unlike the volunteer section, only a small number of them are visible in mobile view.</p>
             <img src={aboutMobile} alt="about page mobile wireframe"/>
           </div>
 
           <div>
             <h2>Events page mobile wireframe</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+            <p>Users can have the same experience through different platforms. Because the fluid box design enables to have unified visual without sacrificing the contents.</p>
             <img src={eventMobile} alt="event page mobile wireframe"/>
           </div>
         </div>
