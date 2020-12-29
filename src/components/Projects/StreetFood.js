@@ -34,10 +34,10 @@ const StreetFood = () => {
       <div>
         <div className="textbox">
           <h1>Problem Analysis</h1>
-          <p>There are seperate apps each for diffrent city. For the users who wants to check the other city's foodtruck, they need to download every each of them.</p>
-          <p>I find lack of branding a issue. Once the user clicks the app icon button to access the app, there are no branding components to be found.</p>
-          <p>Confusing nav button location. The user can only reach to the 'i' icon that provides 'more' functions such as logging in. This should be at the same hirarchical lever on the main app bar alongside of the 'Map', and 'List'.</p>
-          <p>Sign up only available on the website not via the app. Sing in function is only for the users with foodtrucks for them to manage details of the food truck via the app. Only sign in method is through Twitter account.</p>
+          <p>There is a seperate app for each city. For the users who want to check the other city's food truck, they need to download every one of them.</p>
+          <p>I found the lack of branding elements an issue. Once the user clicks the app icon button and enters the app, there are no branding components to be found.</p>
+          <p>Confusing navigation structure. The 'i' icon button should be at the same hierarchical lever on the main bottom app bar alongside the 'Map' and the 'List'.</p>
+          <p>Currently, Sign up is only available on the 'Street Food App' website but via the app, and the only sign-in method is via the Twitter account. </p>
           <p>Too many links exiting the app and redirect to the Mail app which distracts work flow.</p>
         </div>
 
@@ -77,22 +77,22 @@ const StreetFood = () => {
         <div className="textbox">
           <h1>Solution</h1>
 
-          <p>solution summary</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut turpis in magna ultricies malesuada ornare id dolor. Ut nec eros vel elit ultrices molestie. Donec molestie ornare turpis ac congue. In iaculis porta turpis quis convallis.</p>
+          <p>Add a function that allows users to easily switch between different cities instead of download every one of the separate apps for each city that burdened the users by taking up a lot of space on their phone screen.</p>
+          <p>For the stronger brand identity, I decided to add the splash screen with the logo and the tagline.</p>
+          <p>Relocated and refactored the navigation. Originally, the 'i' icon that provides signing in for the food truck owners, getting contact with the app developers, share, etc. was only reachable at the 'Map' section's top app bar.</p>
+          <p>I added the section for the users with food trucks to sign up with the app and because Twitter isn't the most common service people use.</p>
+          <p>Unnecessary links redirecting users are removed and replaced with in-app functions such as messaging within the app to contact the developers or the food trucks.</p>
         </div>
         
         <div className="textbox">
           <h2>User Story</h2>
           <p>as a user, I want to…</p>
-          <p>-know what kind of food trucks are in my city</p>
-          <p>-know the opening hours of the food trucks.</p>
-          <p>-keep up with the locations the food trucks are operating</p>
-          <p>-contact to food truck.</p>
-          <p>-share my experiance with ppl.</p>
-          <p>-check other city’s food trucks before visiting the city</p>
-          <p>-add my own food truck info on the app to promote my bussiness</p>
+          <p>-Know what kind of food trucks are in my city.</p>
+          <p>-Check other city’s food trucks before visiting the city.</p>
+          <p>-Know the opening hours and the locations of the food trucks.</p>
+          <p>-Contact the food truck.</p>
+          <p>-Share my experience with people.</p>
+          <p>-Add my food truck info on the app to promote my business.</p>
         </div>
 
         <div>
@@ -103,49 +103,51 @@ const StreetFood = () => {
         <div className="app-wireframe">
           <div>
             <h2>Splash screen wireframe</h2>
-            <p>Added the splash screen with the logo and tagline to emphasize the branding to the users.</p>
+            <p>The splash screen with the logo and the tagline emphasizes the branding of the 'Street Food App' to the users.</p>
             <img src={splash} alt="thumbnail"/>
           </div>
 
           <div>
             <h2>Map (landing) wireframe</h2>
-            <p>on the top app bar shows which city the user is viewing and the map icon allows users to change cities. Relocated the more button to the bottom app bar for content hirarchy.</p>
+            <p>The top app bar shows which city the user is viewing and the map icon on the righthand side allows users to change cities. Relocated the 'More' button to the right end of the bottom main app bar for content hierarchy.</p>
             <img src={map} alt="thumbnail"/>
           </div>
 
           <div>
             <h2>Map (location selected) wireframe</h2>
-            <p>When the user selects pin on the map, originally it showed the small lable above the pin with name of the truck and the operating hour of the day. now it shows the whole summary of the food truck including the image. </p>
+            <p>When the user selects a pin on the map, originally it showed the small label right above the pin with the name of the food truck and the operating hours of that day. Now it shows the whole summary of the food truck including the image thumbnail that gives a clearer view.</p>
             <img src={mapPinned} alt="thumbnail"/>
           </div>
 
           <div>
             <h2>Change city wireframe</h2>
-            <p>When the user clicks on the map icon button, user can change the city for browsing food trucks. it has search bar for easy look out.</p>
+            <p>When the user clicks on the map icon button next to the city name, the user can change the city for browsing food trucks. It has a search bar for an easy lookout.</p>
             <img src={cities} alt="thumbnail"/>
           </div>
 
           <div>
             <h2>List wireframe</h2>
-            <p>add ‘Opened’ sorting option for viewing instead of ‘A-Z’</p>
+            <p>Instead of 'A-Z' sorting, I added the 'Opened' sorting option for browsing at the 'List' section. List item now has a thumbnail image and a label to indicate what kind of food they are serving to give users more complete information.</p>
             <img src={list} alt="thumbnail"/>
           </div>
 
           <div>
             <h2>Individual food truck wireframe</h2>
-            <p>in-app msg to food truck rather then exiting to the email app.add submit review function.</p>
+            <p>The in-app messaging function is added for the users to communicate with the food truck operator through the app service rather than exiting to the email app, unlike the current app. Also, now users can submit reviews to share their experience with others.</p>
             <img src={truckDetail} alt="thumbnail"/>
           </div>
 
           <div>
             <h2>More wireframe</h2>
-            <p>‘tell a friend about this app’ change to mobile basic share function then via email app.separate the food truck info management for the food truck owners (currently need to find it in the listing).</p>
+            <p>The ‘Tell a friend about this app’ and contacting the Street Food App developers were the links that let users exiting the app and redirect them to the native mobile email app. 
+            This changed to the standard mobile share function, and the messaging to the developers done via the in-app message function. </p>
             <img src={more} alt="thumbnail"/>
           </div>
 
           <div>
             <h2>Manage my truck wireframe</h2>
-            <p>The food truck owners can register their food truck and manage it via the app. sign up function is available once user gets in to the 'manage my truck' section unlike before which showed on 'i'(more) menu and gived unclear user expectation.</p>
+            <p>Separate the food truck management for the food truck owners (currently need to find it in the listing) and add it into the 'More' -> 'Manage My Truck' section.</p>
+            <p>Now, the food truck owners can register their food trucks and manage them via the app. Sign up/in is available once the user gets into the 'Manage My Truck' section unlike the before which showed on the 'i' icon menu header and gave unclear user expectations.</p>
             <img src={myTruck} alt="thumbnail"/>
           </div>
         </div>
