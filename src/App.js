@@ -35,6 +35,9 @@ const useStyles = makeStyles((theme) => ({
     position: 'fixed',
     bottom: theme.spacing(4),
     right: theme.spacing(4),
+  },
+  MuiToolbarRegular: {
+    minHeight: 1,
   }
 }));
 
@@ -67,12 +70,13 @@ const ScrollTop = (props) =>{
 }
 
 const App = (props) => {
+  const classes = useStyles();
   return (
     <Router history={history}>
       <div id="main-layout">
-        <Header />
-        <Toolbar id="back-to-top-anchor" />
-
+        <Toolbar id="back-to-top-anchor" className={classes.MuiToolbarRegular}/>
+        <Header/>
+        <Toolbar/>
         <Switch>
           <Route path="/about" component={AboutPage} />
           <Route path="/contact" component={ContactPage} />
