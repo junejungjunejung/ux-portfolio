@@ -85,21 +85,15 @@ const Header = () => {
         <Divider />
 
         <div id="drawer-layout">
-          <ul
+          <div
             id="nav-hamburger"
             onClick={toggleDrawer(open, false)}
             onKeyDown={toggleDrawer(open, false)}
             >
-            <li>
-              <Link to="/">Projects</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
+            <Link to="/"><div>Projects</div></Link>
+            <Link to="/about"><div>About</div></Link>
+            <Link to="/contact"><div>Contact</div></Link>
+          </div>
 
           <div id="nav-social-hamburger">
             <a href="https://www.linkedin.com/in/junejungjunejung/" className="social-links" target="_blank" rel="noopener noreferrer">
