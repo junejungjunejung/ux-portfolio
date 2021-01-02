@@ -28,6 +28,9 @@ import Fab from '@material-ui/core/Fab';
 import { createBrowserHistory } from 'history';
 import './App.css';
 
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 const history = createBrowserHistory();
 
 const useStyles = makeStyles((theme) => ({
@@ -41,7 +44,17 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const ScrollTop = (props) =>{
+const ScrollTopReset = () =>{
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
+const ScrollTopButton = (props) =>{
   const classes = useStyles();
 
   const { children, window } = props;
@@ -49,7 +62,7 @@ const ScrollTop = (props) =>{
   const trigger = useScrollTrigger({
     target: window ? window() : undefined,
     disableHysteresis: true,
-    threshold: 100,
+    threshold: 300,
   });
 
   const handleClick = (event) => {
@@ -73,6 +86,7 @@ const App = (props) => {
   const classes = useStyles();
   return (
     <Router history={history}>
+    <ScrollTopReset />
       <div id="main-layout">
         <Toolbar id="back-to-top-anchor" className={classes.MuiToolbarRegular}/>
         <Header/>
@@ -89,11 +103,11 @@ const App = (props) => {
           <Route path="/" component={LandingPage} />
         </Switch>
       
-        <ScrollTop {...props}>
+        <ScrollTopButton {...props}>
           <Fab aria-label="scroll back to top">
             <KeyboardArrowUpIcon fontSize="large" />
           </Fab>
-        </ScrollTop>
+        </ScrollTopButton>
 
         <Footer/>
       </div>
