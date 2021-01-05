@@ -4,6 +4,7 @@ import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 import previousLanding from '../../image/massy-current-landing.jpg';
 import previousUserFlow from '../../image/massy-usermap-current.jpg';
+
 import newUserFlow from '../../image/massy-usermap-new.jpg';
 
 import landingWeb from '../../image/massy-landing-desktop.jpg';
@@ -47,6 +48,7 @@ const MassyBooks = () => {
         <h2 className="textbox">Current User Flow</h2>
         <img className="big-img" src={previousUserFlow} alt="previous massy books user flow"/>
 
+
         <div className="textbox">
           <a href="https://www.massybooks.com/" className="website-links" target="_blank" rel="noopener noreferrer">
             <ArrowForwardIcon /> Link to Massy Books
@@ -81,7 +83,7 @@ const MassyBooks = () => {
         <img className="big-img" src={newUserFlow} alt="new massy books user flow"/>
       </div>
 
-      <div className="projects-secondary-container">
+      <div className="textbox">
         <div className="web-wireframe">
           <div>
             <h2>Landing page desktop wireframe</h2>
@@ -111,12 +113,6 @@ const MassyBooks = () => {
           </div>
 
           <div>
-            <h2>Mobile navigation menu wireframe</h2>
-            <p>When one submenu accordion opens, the other automatically closes to prevent content from getting longer and forcing users to scroll through long navigation.</p>
-            <img src={hamburger} alt="navigation menu mobile wireframe"/>
-          </div>
-
-          <div>
             <h2>Shop page mobile wireframe</h2>
             <p>The mobile view of the 'Shop' page hides categories from the horizontal bar selectors to the drop-down menu for more focused and clear information.</p>
             <img src={shopMobile} alt="shop page mobile wireframe"/>
@@ -127,6 +123,12 @@ const MassyBooks = () => {
             <p>The 'Account' submenu persists on the top of the screen for the users to easily switch between the menu items instead of going through the opening and closing of the hamburger menu.</p>
             <p>The breadcrumb navigation is removed for clear information delivery.</p>
             <img src={accountMobile} alt="my account page mobile wireframe"/>
+          </div>
+
+          <div>
+            <h2>Mobile navigation menu wireframe</h2>
+            <p>When one submenu accordion opens, the other automatically closes to prevent content from getting longer and forcing users to scroll through long navigation.</p>
+            <img src={hamburger} alt="navigation menu mobile wireframe"/>
           </div>
         </div>
       </div>

@@ -352,13 +352,13 @@ form{
   }
 
   /* WTC & Massybooks */
-  .projects-secondary-container{
-    max-width: 1000px;
+  #wtc-layout .mobile-wireframe, #massybooks-layout .mobile-wireframe{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
   }
 
-  .projects-secondary-container .mobile-wireframe div{
+  #wtc-layout .mobile-wireframe div, #massybooks-layout .mobile-wireframe div{
     width: 320px;
   }
 

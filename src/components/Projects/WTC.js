@@ -75,7 +75,7 @@ const WTC = () => {
         <img className="big-img" src={newUserFlow} alt="new wtc user flow"/>
       </div>     
 
-      <div className="projects-secondary-container">
+      <div className="textbox">
         <div className="web-wireframe">
           <div>
             <h2>Landing page desktop wireframe</h2>
@@ -110,12 +110,6 @@ const WTC = () => {
           </div>
 
           <div>
-            <h2>Mobile navigation menu wireframe</h2>
-            <p>I chose a vertically stacked hamburger navigation for the mobile view. Submenus are visible by toggling accordion-style menu buttons.</p>
-            <img src={hamburger} alt="navigation menu mobile wireframe"/>
-          </div>
-
-          <div>
             <h2>About page mobile wireframe</h2>
             <p>Because board members are stakeholders of the organization, even though the length of the screen gets longer, I show all the profiles unlike the volunteer section. Only a small number of them are visible in mobile view.</p>
             <img src={aboutMobile} alt="about page mobile wireframe"/>
@@ -125,6 +119,12 @@ const WTC = () => {
             <h2>Events page mobile wireframe</h2>
             <p>Users can have the same experience through different platforms. The fluid box design enables to have unified visual without sacrificing the contents.</p>
             <img src={eventMobile} alt="event page mobile wireframe"/>
+          </div>
+
+          <div>
+            <h2>Mobile navigation menu wireframe</h2>
+            <p>I chose a vertically stacked hamburger navigation for the mobile view. Submenus are visible by toggling accordion-style menu buttons.</p>
+            <img src={hamburger} alt="navigation menu mobile wireframe"/>
           </div>
         </div>
       </div>
