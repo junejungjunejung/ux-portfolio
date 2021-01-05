@@ -25,8 +25,8 @@ const StreetFood = () => {
         <h1>Mobile App UX Redesign Project <span>&#8545;</span></h1>
 
         <h2>Street Food App</h2>
-        <p>A mobile app provides location and schedule of city's food trucks.</p>
-        <p>Street Food has over 1,000 food trucks through out many cities in Canada and US.</p>
+        <p>Street Food App is a mobile app that provides locations and schedules of the city's food trucks. They offer information for over 1,000 food trucks throughout many cities in Canada and the US.</p>
+        <p>I found an opportunity to improve the app's UX while exploring what the app provides.</p>
       </div>
 
       <Divider className="divider"/>
@@ -34,10 +34,10 @@ const StreetFood = () => {
       <div>
         <div className="textbox">
           <h1>Problem Analysis</h1>
-          <p>There is a seperate app for each city. For the users who want to check the other city's food truck, they need to download every one of them.</p>
-          <p>I found the lack of branding elements an issue. Once the user clicks the app icon button and enters the app, there are no branding components to be found.</p>
-          <p>Confusing navigation structure. The 'i' icon button should be at the same hierarchical lever on the main bottom app bar alongside the 'Map' and the 'List'.</p>
-          <p>Currently, Sign up is only available on the 'Street Food App' website but via the app, and the only sign-in method is via the Twitter account. </p>
+          <p>There is a seperate app for each city. For the users who want to check another city's food trucks, they must download every city's application. This is a major user deterrent.</p>
+          <p>The lack of branding elements, is a UX/UI issue. Once the user clicks the app icon button and enters the app, there are no branding components to be found creating a disjointed experience.</p>
+          <p>Confusing navigation structure. The 'i' icon button should be at the same hierarchical level on the main bottom app bar alongside the 'Map' and the 'List'.</p>
+          <p>Currently, Sign up is only available on the 'Street Food App' website but via the app, the only sign-in method is exclusively using a Twitter account. </p>
           <p>Too many links exiting the app and redirect to the Mail app which distracts work flow.</p>
         </div>
 
@@ -77,10 +77,10 @@ const StreetFood = () => {
         <div className="textbox">
           <h1>Solution</h1>
 
-          <p>Add a function that allows users to easily switch between different cities instead of download every one of the separate apps for each city that burdened the users by taking up a lot of space on their phone screen.</p>
-          <p>For the stronger brand identity, I decided to add the splash screen with the logo and the tagline.</p>
-          <p>Relocated and refactored the navigation. Originally, the 'i' icon that provides signing in for the food truck owners, getting contact with the app developers, share, etc. was only reachable at the 'Map' section's top app bar.</p>
-          <p>I added the section for the users with food trucks to sign up with the app and because Twitter isn't the most common service people use.</p>
+          <p>Add a function that allows users to easily switch between different cities instead of download every one of the separate apps for each city that burdened the users by taking up a lot of space on their mobile device.</p>
+          <p>For a stronger experience and brand identity, I added the splash screen with the logo and tagline.</p>
+          <p>Relocated and refactored the navigation. Originally, the 'i' icon that provides Sign-in for the food truck owners, getting contact with the app developers, share, etc. was only reachable at the 'Map' section's top app bar.</p>
+          <p>I added a section for the users with food trucks to sign up through the app because a Twitter exclusive sign-in restricts user account access.</p>
           <p>Unnecessary links redirecting users are removed and replaced with in-app functions such as messaging within the app to contact the developers or the food trucks.</p>
         </div>
         
@@ -121,7 +121,7 @@ const StreetFood = () => {
 
           <div>
             <h2>Change city wireframe</h2>
-            <p>When the user clicks on the map icon button next to the city name, the user can change the city for browsing food trucks. It has a search bar for an easy lookout.</p>
+            <p>When the user clicks on the map icon button next to the city name, the user can change the city for browsing food trucks. It has a search bar for an easy look up.</p>
             <img src={cities} alt="thumbnail"/>
           </div>
 

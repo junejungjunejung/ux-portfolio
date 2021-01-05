@@ -16,10 +16,10 @@ const DevReact = () => {
   return (
     <div className="projects-container" id="devreact-layout">
       <div className="textbox">
-        <h1>Interactive React Development Portfolio</h1>
-        <h2>Web Development Showcase Project</h2>
+        <h1>Web Development Showcase Project</h1>
+        <h2>Interactive React Development Portfolio</h2>
 
-        <p>I wanted to create a website that can showcase my knowledge of frontend web development. The website is built utilizing React.js and Material-UI that are industry-standard toolsets in web development these days. I incorporated the usage of real-time chained API communications that users can interact with and of the Firebase development application for social authentication and CRUD operation using their real-time database.</p>
+        <p>I wanted to create a website that can showcase my knowledge of frontend web development. The website is built utilizing React.js and Material-UI that are industry-standard toolsets in web development. I incorporated the usage of real-time chained API communications that users can interact with. Also, the Firebase development application for social authentication and CRUD operation uses their real-time database.</p>
 
         <div>
           <a href="http://junejungjunejung.github.io/" className="website-links" target="_blank" rel="noopener noreferrer">

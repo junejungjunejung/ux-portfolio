@@ -35,12 +35,11 @@ const MassyBooks = () => {
           <p>The biggest hurdle for the users of Massy Books is that they utilize 3rd party white-labeled e-commerce plugin that is not integrated with the website visually and structurally.</p>
           <p>To simply put it, two websites are linked together via the navigation 'Shop' tab. The main part of the Massy Books website has a responsive view however the e-commerce site only has a desktop view. 
           </p>
-          <p>Sign up is only provided for the e-commerce site and the main site is not benefiting from that. Because of the website being separate.</p>
-          <p>Another issue is, Massy Books has two separate shopping carts on the main website selling fundraiser tickets, and others for books on the e-commerce site.</p>
+          <p>Sign up is only provided for the e-commerce site, the main website has no linked user engagement because of the websites being separate. Another issue is, Massy Books has two separate shopping carts on the main website selling fundraiser tickets, and others for books on the e-commerce site.</p>
           <p>Once the user enters the e-commerce site, it is not possible to go back to the main website unless the user types in the original website's URL.
           </p>
           <p>The footer is overwhelmingly large, it has a duplicate of the entire menu, and the 'Blog' section doesn't have any content. Also, the 'Search' only able users to search for events. This needed to be refactored and trimmed down.</p>
-          <p>There are a lot of redirect links throughout the website that sends the users to other organizations and to original articles. To avoid lowering the user retention rate, these links need to be changed to opening new tabs.</p>
+          <p>There are a lot of redirect links throughout the website that send the users to other organizations and to original articles. To avoid lowering the user retention rate, these links need to be changed to opening new tabs.</p>
         </div>
 
         <h2 className="textbox">Current Website Landing Screen</h2>
@@ -93,7 +92,7 @@ const MassyBooks = () => {
 
           <div>
             <h2>Shop page desktop wireframe</h2>
-            <p>Added the submenu items to the 'shop' main navigation. The users can view books more pre-selected and less overwhelming manner. The users can find the recommended book list. Even though two separate parts of the website were merged together, contents are not lost.</p>
+            <p>Added the submenu items to the 'shop' main navigation. The users can view books more pre-selected and less overwhelming manner. The users can find the recommended book list. Even though two separate parts of the website were merged together, there is no loss of content.</p>
             <img src={shopWeb} alt="shop page desktop wireframe"/>
           </div>
 
@@ -113,7 +112,7 @@ const MassyBooks = () => {
 
           <div>
             <h2>Mobile navigation menu wireframe</h2>
-            <p>When one submenu accordion opens, the other automatically closes to prevent content from getting longer and makes users scroll through the big navigation.</p>
+            <p>When one submenu accordion opens, the other automatically closes to prevent content from getting longer and forcing users to scroll through long navigation.</p>
             <img src={hamburger} alt="navigation menu mobile wireframe"/>
           </div>
 

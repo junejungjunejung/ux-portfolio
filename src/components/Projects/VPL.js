@@ -40,7 +40,7 @@ const VPL = () => {
           <p>There are abundancies such as the email address info in 'Individual Library Location' since all VPL shares one email address, or the available location icons on the top app bar in the book detail page that provides identical functionality in different formats.</p>
           <p>Tabs in the 'More' page such as 'Privacy Statement', 'Terms of Use', 'Accessibility Statement' that has no content but redirecting to the VPL website, and the 'Cache Settings' tab which offers deleting cache is an irrelevant function which makes the app complicated and distracting for the user experience.</p>
           <p>Additionally, there are broken components to be refactored such as the 'Preferred Location for this Device' and 'Send Feedback about this App' tabs.</p>
-          <p>Finally, there is the 'Fees' section in the 'My VPL' tab that is informational only. In order to pay the delay fee, the user has to call a library to make a credit card payment over the phone. Which can be improved for a better user experience.</p>
+          <p>Finally, there is the 'Fees' section in the 'My VPL' tab that is informational only. In order to pay the delay fee, the user has to call a library to make a credit card payment over the phone. This can be improved for a better user experience.</p>
         </div>
 
         <h2 className="textbox">Current App Screens</h2>
@@ -80,7 +80,7 @@ const VPL = () => {
           <h1>Solution</h1>
 
           <p>Overall, I wanted to give VPL Mobile app a streamlined user experience by providing functionalities that can help the users perform most of the library process with the app and minimizing the need for physical visitings, and removing redundant, unnecessary contents complicating the user flow.</p>
-          <p>For example, I moved the login screen from placed in several locations throughout the app blocking user's interaction to logging in once at the landing screen, added the digital sign-up functionality, also, add the in-app credit card payment section to enable users to pay the fee online.</p>
+          <p>For example, I moved the login screen from placed in several locations throughout the app blocking user's interaction to logging in once at the landing screen, added the digital sign-up functionality. Also, added the in-app credit card payment section to enable users to pay the fee online.</p>
           <p>For the user interface, I made changes in layout to give a more coherent and unified look and a more modern interface.</p>
         </div>
         
@@ -101,7 +101,7 @@ const VPL = () => {
         <div className="app-wireframe">
           <div>
             <h2>Login wireframe</h2>
-            <p>Added the 'Login or Register' screen as the landing page to prevent the user gets frustrated by getting blocked by the login screen several locations while using the app. Now the users can register in-app digitally, instead of needing to visit a library physically.</p>
+            <p>Added the 'Login or Register' screen as the landing page to prevent user frustration by getting blocked by the login screen in several locations while using the app. Now the users can register in-app digitally, instead of needing to visit a library physically.</p>
             <img src={login} alt="login wireframe"/>
           </div>
 
@@ -119,13 +119,13 @@ const VPL = () => {
 
           <div>
             <h2>Search wireframe</h2>
-            <p>The search page displays the default list instead of showing a blank page to the user. The summary text lets the user know the number of search results. Added how many stars the book has to give more information to the user.</p>
+            <p>The search page displays the default list instead of showing a blank page to the user. The summary text lets the user know the number of search results. Added how many stars the book has to give more information to the user at a glance.</p>
             <img src={search} alt="search wireframe"/>
           </div>
 
           <div>
             <h2>Search filters wireframe</h2>
-            <p>Changed the filters layout from nested lists to multi choice tabs and a Rolodex selector for language filter. Simplified filters from 15 sections (Topic, Content, form/genre, language, publish date, region, author, etc.) to 4 to avoid overwhelming the users. Added the 'Apply' and the 'Clear All' button for more clear user experience.</p>
+            <p>Changed the filters layout from nested lists to multi choice tabs and a rolodex selector for language filter. Simplified filters from 15 sections (Topic, Content, form/genre, language, publish date, region, author, etc.) to 4 to avoid overwhelming the user. Added the 'Apply' and the 'Clear All' button for more clear user experience.</p>
             <img src={filters} alt="search filters wireframe"/>
           </div>
 

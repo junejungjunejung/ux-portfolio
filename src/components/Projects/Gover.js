@@ -39,8 +39,8 @@ const Gover = () => {
   return (
     <div className="projects-container" id="gover-layout">
       <div className="textbox">
-        <h1>Gover</h1>
-        <h2>Multiplatform Service Design & Development Project</h2>
+        <h1>Multiplatform Service Design & Development Project</h1>
+        <h2>Gover</h2>
         <p>Gover is a multiplatform service that enables property and equipment inspection seamless and faster.</p>
         <p>There are three parts to the project that are the native Android app, the web app, and the corporate website. I took part in designing and developing mainly the web app and the corporate website.</p>
       </div>

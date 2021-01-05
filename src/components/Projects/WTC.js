@@ -31,7 +31,7 @@ const WTC = () => {
         <div className="textbox">
           <h1>Problem Analysis</h1>
           <p>As the latest statistics show that more than 50 percent of web traffic worldwide comes from mobile users, a website must have seamless responsiveness throughout flatforms. However, WTC's website doesn't have a mobile view, and when I accessed it via a mobile device, the website looked visually broken.</p>
-          <p>The top navigation bar has unexpected behavior as in, the heading of the drop-down menu is a link of its own page, makes the user experience confusing. Also, the content of the said page overlaps with the pages from the drop-down menus.</p>
+          <p>The top navigation bar has unexpected behavior, the heading of the drop-down menu is a link of its own page, makes the user experience confusing. Also, the content of the said page overlaps with the pages from the drop-down menus.</p>
           <p>Several pages of the website are links to other websites and articles which lowers retention of the users and ultimately encourages the users to leave the website.</p>      
           <p>The overall layout of the website is distractive to the users because the elements don't have hierarchy and clear divisions to one another but are scattered around throughout the website.</p>
         </div>
@@ -57,7 +57,7 @@ const WTC = () => {
           <p>First and foremost, I wanted to modernize the website by making it responsive and make it more accessible to a bigger audience.</p>
           <p>Secondly, I reorganized and simplified the top navigation by giving it a more expected behavior by removing the functionality in the header of the drop-down menus and merge the content together by rearranging them.</p>
           <p>The current WTC website landing page is mainly composed of links to recommended articles and since the landing page is the most valuable asset, I wanted to promote user involvement. I added CTA sections to encourage the users to register for events, join the membership, and donate to the organization as well as subscribe to newsletters.</p>
-          <p>I decided to declutter the footer and reduce the size by removing the excessive white space which takes up valuable space that could be used otherwise.</p>
+          <p>I decluttered the footer and reduced the size by removing the excessive white space which takes up valuable space that could be used otherwise.</p>
         </div>
 
         <div className="textbox">
@@ -105,7 +105,7 @@ const WTC = () => {
         <div className="mobile-wireframe">
           <div>
             <h2>Landing page mobile wireframe</h2>
-            <p>To give equal importance throughout the sections in landing views, I decided the layout of the articles horizontal swipe instead of stacking vertically and taking up the major portion of the screen.</p>
+            <p>To give equal importance throughout the sections in landing views, the layout of the articles is a horizontal swipe instead of stacking vertically, and taking up the major portion of the screen.</p>
             <img src={landingMobile} alt="landing page mobile wireframe"/>
           </div>
 
@@ -117,13 +117,13 @@ const WTC = () => {
 
           <div>
             <h2>About page mobile wireframe</h2>
-            <p>Because board members are stakeholders of the organization, even though the length of the screen gets longer, I decided to show all the profiles unlike the volunteer section, only a small number of them are visible in mobile view.</p>
+            <p>Because board members are stakeholders of the organization, even though the length of the screen gets longer, I show all the profiles unlike the volunteer section. Only a small number of them are visible in mobile view.</p>
             <img src={aboutMobile} alt="about page mobile wireframe"/>
           </div>
 
           <div>
             <h2>Events page mobile wireframe</h2>
-            <p>Users can have the same experience through different platforms. Because the fluid box design enables to have unified visual without sacrificing the contents.</p>
+            <p>Users can have the same experience through different platforms. The fluid box design enables to have unified visual without sacrificing the contents.</p>
             <img src={eventMobile} alt="event page mobile wireframe"/>
           </div>
         </div>
